@@ -1,1 +1,1 @@
-let myDoc = document.querySelector('body');
+let myPage = document.querySelector('body');
