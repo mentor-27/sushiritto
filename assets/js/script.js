@@ -1,0 +1,1 @@
+let myDoc = document.querySelector('body');
