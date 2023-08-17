@@ -1,18 +1,1490 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <h2 class="categoryName">роллы классические<span class="arrow"></span></h2>
+    <article id="classic-rolls" class="categoryBox collapse">
+        <section id="cr_asiya" class="item">
+            <img src="./assets/img/asiya.png" alt="Асия" class="itemImage">
+            <h3 class="itemName">асия</h3>
+            <p class="itemDescription">Свежий лосось, тигровые креветки, снежный краб, сливочный сыр, перец болгарский,
+                огурец, зеленый лук</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">265</span>
+        </section>
+        <section id="cr_tokyo" class="item">
+            <img src="./assets/img/tokyo.png" alt="Токио" class="itemImage">
+            <h3 class="itemName">токио</h3>
+            <p class="itemDescription">Свежий лосось, креветка, икра летучей рыбы, сливочный сыр, авокадо</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">260</span>
+        </section>
+        <section id="cr_tigerDragon" class="item">
+            <img src="./assets/img/tiger_dragon.png" alt="Тигровый дракон" class="itemImage">
+            <h3 class="itemName">тигровый дракон</h3>
+            <p class="itemDescription">Рис, нори, снежный краб, икра «Тобико», авокадо, тигровая креветка 5 шт</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="cr_philadelphia" class="item">
+            <img src="./assets/img/philadelphia.png" alt="Филадельфия" class="itemImage">
+            <h3 class="itemName">филадельфия</h3>
+            <p class="itemDescription">Сочный лосось, сливочный сыр, огурец</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">200</span>
+        </section>
+        <section id="cr_philadelphiaAvocado" class="item">
+            <img src="./assets/img/philadelphia.png" alt="Филадельфия с авокадо" class="itemImage">
+            <h3 class="itemName">филадельфия с авокадо</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, авокадо</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">215</span>
+        </section>
+        <section id="cr_philadelphiaMega" class="item">
+            <img src="./assets/img/philadelphia.png" alt="Филадельфия Mega" class="itemImage">
+            <h3 class="itemName">филадельфия mega</h3>
+            <p class="itemDescription">Сливочный сыр, огурец, двойной лосось, меньше риса</p>
+            <span class="itemWeight">290</span>
+            <span class="itemPrice">260</span>
+        </section>
+        <section id="cr_philadelphiaPremium" class="item">
+            <img src="./assets/img/philadelphia.png" alt="Филадельфия Premium" class="itemImage">
+            <h3 class="itemName">филадельфия premium</h3>
+            <p class="itemDescription">Ещё больше сочного лосося, сливочный сыр, огурец</p>
+            <span class="itemWeight">270</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="cr_philadelphiaDeluxe" class="item">
+            <img src="./assets/img/philadelphia_deluxe.png" alt="Филадельфия Deluxe" class="itemImage">
+            <h3 class="itemName">филадельфия deluxe</h3>
+            <p class="itemDescription">Рис, нори, лосось, авокадо, икра «Тобико», сливочный сыр</p>
+            <span class="itemWeight">270</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="cr_philadelphiaCrab" class="item">
+            <img src="./assets/img/philadelphia_deluxe.png" alt="Филадельфия с крабом" class="itemImage">
+            <h3 class="itemName">филадельфия с крабом</h3>
+            <p class="itemDescription">Рис, нори, лосось, авокадо, икра «Тобико», снежный краб, сливочный сыр</p>
+            <span class="itemWeight">270</span>
+            <span class="itemPrice">240</span>
+        </section>
+        <section id="cr_philadelphiaGreenOnion" class="item">
+            <img src="./assets/img/philadelphia_with_green_onion.png" alt="Филадельфия с зелёным луком"
+                class="itemImage">
+            <h3 class="itemName">филадельфия с зелёным луком</h3>
+            <p class="itemDescription">Сочный лосось, зеленый лук, сливочный сыр</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">180</span>
+        </section>
+        <section id="cr_philadelphiaEel" class="item">
+            <img src="./assets/img/philadelphia_with_eel.png" alt="Филадельфия с угрём" class="itemImage">
+            <h3 class="itemName">филадельфия с угрём</h3>
+            <p class="itemDescription">Свежий лосось, копченый угорь, огурец, авокадо, икра летучей рыбы</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">220</span>
+        </section>
+        <section id="cr_philadelphiaTigerShrimp" class="item">
+            <img src="./assets/img/philadelphia_with_tiger_shrimp.png" alt="Филадельфия с тигровой креветкой"
+                class="itemImage">
+            <h3 class="itemName">филадельфия с тигровой креветкой</h3>
+            <p class="itemDescription">Рис, нори, сливочный сыр, огурец, тигровая креветка 5 шт</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">245</span>
+        </section>
+        <section id="cr_akay" class="item">
+            <img src="./assets/img/akay.png" alt="Акай" class="itemImage">
+            <h3 class="itemName">акай</h3>
+            <p class="itemDescription">Рис, нори, угорь, сливочный сыр, огурец, окунь</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">205</span>
+        </section>
+        <section id="cr_asahi" class="item">
+            <img src="./assets/img/asahi.png" alt="Асахи" class="itemImage">
+            <h3 class="itemName">асахи</h3>
+            <p class="itemDescription">Копчёный угорь, снежный краб, сливочный сыр, авокадо, икра летучей рыбы</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">245</span>
+        </section>
+        <section id="cr_royalDragon" class="item">
+            <img src="./assets/img/royal_dragon.png" alt="Королевский дракон" class="itemImage">
+            <h3 class="itemName">королевский дракон</h3>
+            <p class="itemDescription">Копченый угорь, снежный краб, соус «Кимчи», икра летучей рыбы, авокадо, кунжут
+            </p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">255</span>
+        </section>
+        <section id="cr_dragonDream" class="item">
+            <img src="./assets/img/dragon_dream.png" alt="Мечта дракона" class="itemImage">
+            <h3 class="itemName">мечта дракона</h3>
+            <p class="itemDescription">Копченый угорь, снежный краб, японский майонез, авокадо, огурец</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="cr_unagiTerra" class="item">
+            <img src="./assets/img/california.png" alt="Калифорния" class="itemImage">
+            <h3 class="itemName">калифорния</h3>
+            <p class="itemDescription">Снежный краб, сливочный сыр, авокадо, икра летучей рыбы</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">200</span>
+        </section>
+        <section id="cr_california" class="item">
+            <img src="./assets/img/unagi_terra.png" alt="Унаги Терра" class="itemImage">
+            <h3 class="itemName">унаги терра</h3>
+            <p class="itemDescription">Копченый угорь, сливочный сыр, огурец, посыпан кунжутом</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">200</span>
+        </section>
+        <section id="cr_californiaMix" class="item">
+            <img src="./assets/img/california_mix.png" alt="Калифорния Mix" class="itemImage">
+            <h3 class="itemName">калифорния mix</h3>
+            <p class="itemDescription">Свежий лосось, лист салата, сливочный сыр, икра летучей рыбы</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">195</span>
+        </section>
+        <section id="cr_californiaNight" class="item">
+            <img src="./assets/img/california_night.png" alt="Калифорния Night" class="itemImage">
+            <h3 class="itemName">калифорния night</h3>
+            <p class="itemDescription">Снежный краб, сливочный сыр, огурец, икра летучей рыбы</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">180</span>
+        </section>
+        <section id="cr_californiaCrab" class="item">
+            <img src="./assets/img/california_with_crab.png" alt="Калифорния с крабом" class="itemImage">
+            <h3 class="itemName">калифорния с крабом</h3>
+            <p class="itemDescription">Снежный краб, огурец, авокадо, икра летучей рыбы</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">225</span>
+        </section>
+        <section id="cr_californiaSesame" class="item">
+            <img src="./assets/img/california_in_sesame.png" alt="Калифорния в кунжуте" class="itemImage">
+            <h3 class="itemName">калифорния в кунжуте</h3>
+            <p class="itemDescription">Снежный краб, сливочный сыр, авокадо, кунжут</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">165</span>
+        </section>
+        <section id="cr_californiaPremium" class="item">
+            <img src="./assets/img/california_premium.png" alt="Калифорния Premium" class="itemImage">
+            <h3 class="itemName">калифорния premium</h3>
+            <p class="itemDescription">Снежный краб, авокадо, соус «Кимчи», икра летучей рыбы</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="cr_californiaEel" class="item">
+            <img src="./assets/img/california_with_eel.png" alt="Калифорния с крабом" class="itemImage">
+            <h3 class="itemName">калифорния с крабом</h3>
+            <p class="itemDescription">Копченый угорь, огурец, авокадо, кунжут</p>
+            <span class="itemWeight">220</span>
+            <span class="itemPrice">185</span>
+        </section>
+        <section id="cr_lava" class="item">
+            <img src="./assets/img/lava.png" alt="Лава" class="itemImage">
+            <h3 class="itemName">лава</h3>
+            <p class="itemDescription">Свежий лосось, огурец, сливочный сыр, кунжут, фирменный соус «Лава»</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">215</span>
+        </section>
+        <section id="cr_lavaTigerShrimp" class="item">
+            <img src="./assets/img/lava.png" alt="Лава с тигровой креветкой" class="itemImage">
+            <h3 class="itemName">лава с тигровой креветкой</h3>
+            <p class="itemDescription">Тигровая креветка, сливочный сыр, огурец, фирменный соус «Лава»</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">210</span>
+        </section>
+        <section id="cr_lavaEel" class="item">
+            <img src="./assets/img/lava_with_eel.png" alt="Лава с угрём" class="itemImage">
+            <h3 class="itemName">лава с угрём</h3>
+            <p class="itemDescription">Копченый угорь, огурец, сливочный сыр, фирменный соус «Лава»</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">210</span>
+        </section>
+        <section id="cr_haru" class="item">
+            <img src="./assets/img/haru.png" alt="Хару" class="itemImage">
+            <h3 class="itemName">хару</h3>
+            <p class="itemDescription">Рис, нори, лосось, сливочный сыр, авокадо, соус «Кимчи»</p>
+            <span class="itemWeight">210</span>
+            <span class="itemPrice">195</span>
+        </section>
+        <section id="cr_lavaEbiTempura" class="item">
+            <img src="./assets/img/lava_ebi_tempura.png" alt="Лава Эби Темпура" class="itemImage">
+            <h3 class="itemName">лава эби темпура</h3>
+            <p class="itemDescription">Огурец, тигровая креветка темпура, соус «Кимчи», покрыт чесночным соусом, кунжут
+            </p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">225</span>
+        </section>
+        <section id="cr_amatera" class="item">
+            <img src="./assets/img/amatera.png" alt="Аматера" class="itemImage">
+            <h3 class="itemName">аматера</h3>
+            <p class="itemDescription">Свежий лосось, копченый угорь, огурец, сливочный сыр, кунжут</p>
+            <span class="itemWeight">225</span>
+            <span class="itemPrice">215</span>
+        </section>
+        <section id="cr_yasay" class="item">
+            <img src="./assets/img/yasay.png" alt="Ясай" class="itemImage">
+            <h3 class="itemName">ясай</h3>
+            <p class="itemDescription">Свежий лосось, авокадо, сливочный сыр, снежный краб, икра «Тобико», унаги, кунжут
+            </p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">235</span>
+        </section>
+        <section id="cr_bonsay" class="item">
+            <img src="./assets/img/bonsay.png" alt="Бонсай" class="itemImage">
+            <h3 class="itemName">бонсай</h3>
+            <p class="itemDescription">Лосось, сливочный сыр, огурец, соус «Кимчи», икра летучей рыбы</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">205</span>
+        </section>
+        <section id="cr_chess" class="item">
+            <img src="./assets/img/chess.png" alt="Шахматы" class="itemImage">
+            <h3 class="itemName">шахматы</h3>
+            <p class="itemDescription">Снежный краб, авокадо, сливочный сыр, икра летучей рыбы</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">200</span>
+        </section>
+        <section id="cr_ebiTempura" class="item">
+            <img src="./assets/img/ebi_tempura.png" alt="Эби Темпура" class="itemImage">
+            <h3 class="itemName">эби темпура</h3>
+            <p class="itemDescription">Огурец, тигровая креветка темпура, соус Кимчи, кунжут</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">200</span>
+        </section>
+        <section id="cr_bonitoTuna" class="item">
+            <img src="./assets/img/bonito_with_tuna.png" alt="Бонито с тунцом" class="itemImage">
+            <h3 class="itemName">бонито с тунцом</h3>
+            <p class="itemDescription">Рис, нори, тунец, сливочный сыр, тобика, лук зеленый, стружка тунца</p>
+            <span class="itemWeight">220</span>
+            <span class="itemPrice">190</span>
+        </section>
+        <section id="cr_greenDragon" class="item">
+            <img src="./assets/img/green_dragon.png" alt="Зелёный дракон" class="itemImage">
+            <h3 class="itemName">зелёный дракон</h3>
+            <p class="itemDescription">Угорь копченый, огурец, икра летучей рыбы, сливочный сыр, кунжут, накрыт авокадо
+                и полит Унаги соусом</p>
+            <span class="itemWeight">220</span>
+            <span class="itemPrice">240</span>
+        </section>
+        <section id="cr_okinava" class="item">
+            <img src="./assets/img/okinava.png" alt="Окинава" class="itemImage">
+            <h3 class="itemName">окинава</h3>
+            <p class="itemDescription">Свежий лосось, копченый угорь, авокадо, огурец, икра летучей рыбы</p>
+            <span class="itemWeight">210</span>
+            <span class="itemPrice">225</span>
+        </section>
+        <section id="cr_tokusey" class="item">
+            <img src="./assets/img/tokusey.png" alt="Токусей" class="itemImage">
+            <h3 class="itemName">токусей</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, лист салата, авокадо, накрытый огурцом</p>
+            <span class="itemWeight">220</span>
+            <span class="itemPrice">175</span>
+        </section>
+        <section id="cr_alaska" class="item">
+            <img src="./assets/img/alaska.png" alt="Аляска" class="itemImage">
+            <h3 class="itemName">аляска</h3>
+            <p class="itemDescription">Свежий лосось, огурец, сливочный сыр, кунжут</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">185</span>
+        </section>
+        <section id="cr_cesar" class="item">
+            <img src="./assets/img/cesar.png" alt="Цезарь" class="itemImage">
+            <h3 class="itemName">цезарь</h3>
+            <p class="itemDescription">Копченая курочка, помидор, лист салата, сливочный сыр, посыпан черным и белым
+                кунжутом</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">180</span>
+        </section>
+    </article>
+    <h2 class="categoryName">тёплые роллы<span class="arrow"></span></h2>
+    <article id="warm-rolls" class="categoryBox collapse">
+        <section id="wr_idsumiTai" class="item">
+            <img src="./assets/img/idsumi-tai.png" alt="Идзуми-Тай" class="itemImage">
+            <h3 class="itemName">идзуми-тай</h3>
+            <p class="itemDescription">Рис, нори, окунь темпура, сливочный сыр, помидор, соус кимчи, лук зеленый,
+                обжаренный в темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="wr_premiumRoll" class="item">
+            <img src="./assets/img/premium_roll.png" alt="Premium Ролл" class="itemImage">
+            <h3 class="itemName">premium ролл</h3>
+            <p class="itemDescription">Ролл с семгой, копченым угрем, икрой летучей рыбы, слив. сыр, авокадо</p>
+            <span class="itemWeight">300</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="wr_tempuraPhiladelphia" class="item">
+            <img src="./assets/img/tempura_philadelphia.png" alt="Темпура Филадельыия" class="itemImage">
+            <h3 class="itemName">темпура филадельфия</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось, сливочный сыр, авокадо, обжаренный в темпурном кляре и
+                сухарях «Панко»</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="wr_tempuraCalifornia" class="item">
+            <img src="./assets/img/tempura_california.png" alt="Темпура Калифорния" class="itemImage">
+            <h3 class="itemName">темпура калифорния</h3>
+            <p class="itemDescription">Рис, нори, снежный краб, сливочный сыр, авокадо, икра летучей рыбы, обжаренный в
+                темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">290</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="wr_tempuraSpring" class="item">
+            <img src="./assets/img/tempura_spring.png" alt="Темпура весенний" class="itemImage">
+            <h3 class="itemName">темпура весенний</h3>
+            <p class="itemDescription">Огурец, авокадо, помидор, болгарский перец, лист салата, сливочный сыр</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">185</span>
+        </section>
+        <section id="wr_lavaTempura" class="item">
+            <img src="./assets/img/lava_tempura.png" alt="Лава Темпура" class="itemImage">
+            <h3 class="itemName">лава темпура</h3>
+            <p class="itemDescription">Свежий лосось, огурец, сливочный сыр, фирменный соус Лава, обжаренный в темпурном
+                кляре и сухарях «Панко»</p>
+            <span class="itemWeight">310</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="wr_banzai" class="item">
+            <img src="./assets/img/banzai.png" alt="Банзай" class="itemImage">
+            <h3 class="itemName">банзай</h3>
+            <p class="itemDescription">Ролл с семгой, копченым угрем, сливочным сыром, огурцом</p>
+            <span class="itemWeight">290</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="wr_norito" class="item">
+            <img src="./assets/img/norito.png" alt="Норито" class="itemImage">
+            <h3 class="itemName">норито</h3>
+            <p class="itemDescription">Рис, нори, лосось, окунь, огурец, сливочный сыр, икра летучей рыбы, обжаренный в
+                темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">270</span>
+            <span class="itemPrice">225</span>
+        </section>
+        <section id="wr_asami" class="item">
+            <img src="./assets/img/asami.png" alt="Асами" class="itemImage">
+            <h3 class="itemName">асами</h3>
+            <p class="itemDescription">Ролл с тигровой креветкой, сливочным сыром, огурцом, икрой «Тобико», латуком,
+                обжаренный в темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="wr_tsurai" class="item">
+            <img src="./assets/img/tsurai.png" alt="Тсурай" class="itemImage">
+            <h3 class="itemName">тсурай</h3>
+            <p class="itemDescription">Ролл с копченой куриной грудинкой, помидорами и сливочным сыром, обжаренный в
+                темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">190</span>
+        </section>
+        <section id="wr_dragonBreath" class="item">
+            <img src="./assets/img/dragon_breath.png" alt="Дыхание дракона" class="itemImage">
+            <h3 class="itemName">дыхание дракона</h3>
+            <p class="itemDescription">Рис, нори, копченый угорь, сливочный сыр, огурец, полит унаги и посыпан кунжутом,
+                обжаренный в темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">225</span>
+        </section>
+        <section id="wr_siakeTempura" class="item">
+            <img src="./assets/img/siake_tempura.png" alt="Сяке Темпура" class="itemImage">
+            <h3 class="itemName">сяке темпура</h3>
+            <p class="itemDescription">Рис, нори, нежнейший лосось, огурец, сливочный сыр, кунжут, соус «Унаги»,
+                обжаренный в темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">215</span>
+        </section>
+        <section id="wr_kabuki" class="item">
+            <img src="./assets/img/kabuki.png" alt="Кабуки" class="itemImage">
+            <h3 class="itemName">кабуки</h3>
+            <p class="itemDescription">Копченая курочка, сливочный сыр, огурец, чесночные шапочки, обжаренный в
+                темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">205</span>
+        </section>
+    </article>
+    <h2 class="categoryName">роллы маки<span class="arrow"></span></h2>
+    <article id="maki-rolls" class="categoryBox collapse">
+        <section id="rm_lavaMaki" class="item">
+            <img src="./assets/img/lava_maki.png" alt="Лава Маки" class="itemImage">
+            <h3 class="itemName">лава маки</h3>
+            <p class="itemDescription">Огурец, фирменный соус «Лава»</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">85</span>
+        </section>
+        <section id="rm_unagiMaki" class="item">
+            <img src="./assets/img/unagi_maki.png" alt="Унаги Маки" class="itemImage">
+            <h3 class="itemName">унаги маки</h3>
+            <p class="itemDescription">Рис, нори, копченый угорь, огурец, соус «Унаги», кунжут</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">120</span>
+        </section>
+        <section id="rm_terraMaki" class="item">
+            <img src="./assets/img/terra_maki.png" alt="Терра Маки" class="itemImage">
+            <h3 class="itemName">терра маки</h3>
+            <p class="itemDescription">Рис, нори, копченый угорь, огурец, сливочный сыр</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">120</span>
+        </section>
+        <section id="rm_filaMaki" class="item">
+            <img src="./assets/img/fila_maki.png" alt="Фила Маки" class="itemImage">
+            <h3 class="itemName">фила маки</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось, сливочный сыр</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">110</span>
+        </section>
+        <section id="rm_sumokoMaki" class="item">
+            <img src="./assets/img/sumoko_maki.png" alt="Сумоко Маки" class="itemImage">
+            <h3 class="itemName">сумоко маки</h3>
+            <p class="itemDescription">Рис, нори, нежнейший лосось, огурец</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">100</span>
+        </section>
+        <section id="rm_siakeMaki" class="item">
+            <img src="./assets/img/siake_maki.png" alt="Сяке Маки" class="itemImage">
+            <h3 class="itemName">сяке маки</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">105</span>
+        </section>
+        <section id="rm_tekkaMaki" class="item">
+            <img src="./assets/img/siake_maki.png" alt="Текка Маки" class="itemImage">
+            <h3 class="itemName">текка маки</h3>
+            <p class="itemDescription">Нори, рис, тунец, огурец</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">105</span>
+        </section>
+        <section id="rm_kampinoMaki" class="item">
+            <img src="./assets/img/kampino_maki.png" alt="Кампино Маки" class="itemImage">
+            <h3 class="itemName">кампино маки</h3>
+            <p class="itemDescription">Огурец, сливочный сыр</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">80</span>
+        </section>
+        <section id="rm_kappaMaki" class="item">
+            <img src="./assets/img/kappa_maki.png" alt="Каппа Маки" class="itemImage">
+            <h3 class="itemName">каппа маки</h3>
+            <p class="itemDescription">Рис, нори, свежый огурец, кунжут</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">75</span>
+        </section>
+        <section id="rm_tomatoMaki" class="item">
+            <img src="./assets/img/tomato_maki.png" alt="Томато Маки" class="itemImage">
+            <h3 class="itemName">томато маки</h3>
+            <p class="itemDescription">Рис, нори, помидор, сыр крем</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">80</span>
+        </section>
+        <section id="rm_kaniMaki" class="item">
+            <img src="./assets/img/kani_maki.png" alt="Кани Маки" class="itemImage">
+            <h3 class="itemName">кани маки</h3>
+            <p class="itemDescription">Рис, нори, снежный краб</p>
+            <span class="itemWeight">130</span>
+            <span class="itemPrice">75</span>
+        </section>
+    </article>
+    <h2 class="categoryName">smart роллы<span class="arrow"></span></h2>
+    <article id="smart-rolls" class="categoryBox collapse">
+        <section id="sr_smartMiami" class="item">
+            <img src="./assets/img/smart_miami.png" alt="Smart Майями" class="itemImage">
+            <h3 class="itemName">smart майями</h3>
+            <p class="itemDescription">Сливочный сыр, авокадо, икра «Тобико»</p>
+            <span class="itemWeight">200</span>
+            <span class="itemPrice">150</span>
+        </section>
+        <section id="sr_bonitoSpicy" class="item">
+            <img src="./assets/img/bonito_spicy.png" alt="Бонито Спайси" class="itemImage">
+            <h3 class="itemName">бонито спайси</h3>
+            <p class="itemDescription">Снежный краб, авокадо, соус «Кимчи», стружка тунца</p>
+            <span class="itemWeight">210</span>
+            <span class="itemPrice">130</span>
+        </section>
+        <section id="sr_makelanoVegeterian" class="item">
+            <img src="./assets/img/makelano_vegeterian.png" alt="Макелано Вегетарианский" class="itemImage">
+            <h3 class="itemName">макелано вегетарианский</h3>
+            <p class="itemDescription">Огурец, авокадо, водоросли «Чука», помидор</p>
+            <span class="itemWeight">200</span>
+            <span class="itemPrice">95</span>
+        </section>
+        <section id="sr_makelanoTuna" class="item">
+            <img src="./assets/img/makelano_vegeterian.png" alt="Макелано с тунцом" class="itemImage">
+            <h3 class="itemName">макелано с тунцом</h3>
+            <p class="itemDescription">Тунец, сливочный сыр, огурец, икра «Тобико»</p>
+            <span class="itemWeight">220</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="sr_mexico" class="item">
+            <img src="./assets/img/mexico.png" alt="Мехико" class="itemImage">
+            <h3 class="itemName">мехико</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, огурец, кунжут</p>
+            <span class="itemWeight">200</span>
+            <span class="itemPrice">120</span>
+        </section>
+        <section id="sr_red" class="item">
+            <img src="./assets/img/red.png" alt="Red" class="itemImage">
+            <h3 class="itemName">red</h3>
+            <p class="itemDescription">Снежный краб, сливочный сыр, икра «Тобико»</p>
+            <span class="itemWeight">210</span>
+            <span class="itemPrice">125</span>
+        </section>
+        <section id="sr_philadelphiaTobiko" class="item">
+            <img src="./assets/img/philadelphia_with_tobico.png" alt="Филадельфия с «Тобико»" class="itemImage">
+            <h3 class="itemName">филадельфия с тобико</h3>
+            <p class="itemDescription">Сливочный сыр, свежий лосось, икра Тобико</p>
+            <span class="itemWeight">220</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="sr_philadelphiaUltra" class="item">
+            <img src="./assets/img/philadelphia_ultra.png" alt="Филадельфия Ultra" class="itemImage">
+            <h3 class="itemName">филадельфия ultra</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, авокадо, сладкий перец</p>
+            <span class="itemWeight">210</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="sr_smartCalifornia" class="item">
+            <img src="./assets/img/california.png" alt="Smart Калифорния" class="itemImage">
+            <h3 class="itemName">smart калифорния</h3>
+            <p class="itemDescription">Снежный краб, сливочный сыр, авокадо, икра «Тобико»</p>
+            <span class="itemWeight">200</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="sr_greek" class="item">
+            <img src="./assets/img/greek.png" alt="Греческий" class="itemImage">
+            <h3 class="itemName">греческий</h3>
+            <p class="itemDescription">Сливочный сыр, огурец, сладкий перец, помидор, кунжут</p>
+            <span class="itemWeight">200</span>
+            <span class="itemPrice">105</span>
+        </section>
+    </article>
+    <h2 class="categoryName">premium роллы<span class="arrow"></span></h2>
+    <article id="premium-rolls" class="categoryBox collapse">
+        <section id="pr_doubleFish" class="item">
+            <img src="./assets/img/double_fish.png" alt="Double Fish" class="itemImage">
+            <h3 class="itemName">double fish</h3>
+            <p class="itemDescription">Копченый угорь, тигровая креветка, тунец, сливочный сыр, авокадо, огурец,
+                японский майонез, соус «Кимчи», соус «Унаги»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">300</span>
+        </section>
+        <section id="pr_dorblu" class="item">
+            <img src="./assets/img/dorblu.png" alt="Дор Блю" class="itemImage">
+            <h3 class="itemName">дор блю</h3>
+            <p class="itemDescription">Свежий лосось, копченый угорь, снежный краб, огурец, сливочный сыр, сыр Дор-Блю,
+                соус «Унаги»</p>
+            <span class="itemWeight">270</span>
+            <span class="itemPrice">290</span>
+        </section>
+        <section id="pr_arigato" class="item">
+            <img src="./assets/img/arigato.png" alt="Аригато" class="itemImage">
+            <h3 class="itemName">аригато</h3>
+            <p class="itemDescription">Копченый угорь, тигровая креветка, сливочный сыр, авокадо, зеленый лук, икра
+                «Тобико», японский майонез, соус «Унаги»</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">270</span>
+        </section>
+        <section id="pr_dragon" class="item">
+            <img src="./assets/img/dragon.png" alt="Дракон" class="itemImage">
+            <h3 class="itemName">дракон</h3>
+            <p class="itemDescription">Тигровая креветка темпура, свежий лосось, сливочный сыр, авокадо, икра «Тобико»,
+                сырный соус, соус «Унаги»</p>
+            <span class="itemWeight"></span>
+            <span class="itemPrice"></span>
+        </section>
+        <section id="pr_crunch" class="item">
+            <img src="./assets/img/crunch.png" alt="Кранч" class="itemImage">
+            <h3 class="itemName">кранч</h3>
+            <p class="itemDescription">Креветка темпура, свежий лосось, угорь копченый, снежный краб, икра «Тобико»,
+                «Кранч» лук, сырный соус, майонез японский, соус «Унаги», кунжут</p>
+            <span class="itemWeight">300</span>
+            <span class="itemPrice">320</span>
+        </section>
+        <section id="pr_naomi" class="item">
+            <img src="./assets/img/naomi.png" alt="Наоми" class="itemImage">
+            <h3 class="itemName">наоми</h3>
+            <p class="itemDescription">Тигровая креветка темпура, сливочный сыр, авокадо, огурец, соус сырный, соус
+                «Кимчи», соус «Унаги», икра «Тобико», кунжут</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">260</span>
+        </section>
+        <section id="pr_kamikaze" class="item">
+            <img src="./assets/img/kamikaze.png" alt="Камикадзе" class="itemImage">
+            <h3 class="itemName">камикадзе</h3>
+            <p class="itemDescription">Свежий лосось, снежный краб, авокадо, сливочный сыр, японский майонез, соус
+                сладкий чили</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="pr_rainbow" class="item">
+            <img src="./assets/img/rainbow.png" alt="Радуга" class="itemImage">
+            <h3 class="itemName">радуга</h3>
+            <p class="itemDescription">Свежий лосось, копченый угорь, тигровая креветка, снежный краб, сливочный сыр,
+                огурец, соус сладкий чили, японский майонез, соус «Унаги», кунжут</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">290</span>
+        </section>
+        <section id="pr_nobu" class="item">
+            <img src="./assets/img/nobu.png" alt="Нобу" class="itemImage">
+            <h3 class="itemName">нобу</h3>
+            <p class="itemDescription">Свежий лосось, снежный краб, сливочный сыр, икра «Тобико», соус сладкий чили,
+                обжаренный в темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">270</span>
+        </section>
+    </article>
+    <h2 class="categoryName">роллы без риса<span class="arrow"></span></h2>
+    <article id="rolls-wo-rice" class="categoryBox collapse">
+        <section id="rwr_springEel" class="item">
+            <img src="./assets/img/spring_with_eel.png" alt="Spring с угрём" class="itemImage">
+            <h3 class="itemName">spring с угрём</h3>
+            <p class="itemDescription">Рисовая бумага, сливочный сыр, копченый угорь, икра «Тобико», лист салата, огурец
+            </p>
+            <span class="itemWeight">160</span>
+            <span class="itemPrice">310</span>
+        </section>
+        <section id="rwr_springSalmon" class="item">
+            <img src="./assets/img/spring_with_salmon.png" alt="Spring с лососем" class="itemImage">
+            <h3 class="itemName">spring с лососем</h3>
+            <p class="itemDescription">Рисовая бумага, сливочный сыр, свежий лосось, икра «Тобико», лист салата, огурец,
+                остро сладкий соус</p>
+            <span class="itemWeight">160</span>
+            <span class="itemPrice">275</span>
+        </section>
+        <section id="rwr_springTigerShrimp" class="item">
+            <img src="./assets/img/spring_with_tiger_shrimp.png" alt="Spring с тигровой креветкой" class="itemImage">
+            <h3 class="itemName">spring с тигровой креветкой</h3>
+            <p class="itemDescription">Рисовая бумага, сливочный сыр, тигровая креветка, икра «Тобико», лист салата,
+                огурец</p>
+            <span class="itemWeight">150</span>
+            <span class="itemPrice">290</span>
+        </section>
+    </article>
+    <h2 class="categoryName">роллы с чёрным рисом<span class="arrow"></span></h2>
+    <article id="black-rice-rolls" class="categoryBox collapse">
+        <section id="brr_toki" class="item">
+            <img src="./assets/img/toki.png" alt="Токи" class="itemImage">
+            <h3 class="itemName hot">токи</h3>
+            <p class="itemDescription">Рис, нори, копченый угорь, свежий лосось, сливочный сыр, лук зеленый, авокадо,
+                чернила каракатицы, мука «Темпура», сухари «Панко»</p>
+            <span class="itemWeight">270</span>
+            <span class="itemPrice">270</span>
+        </section>
+        <section id="brr_katori" class="item">
+            <img src="./assets/img/katori.png" alt="Катори" class="itemImage">
+            <h3 class="itemName hot">катори</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось, тигровые креветки 2 шт., икра летучей рыбы, авокадо,
+                чернила каракатицы, мука «Темпура», сухари «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">260</span>
+        </section>
+        <section id="brr_odsu" class="item">
+            <img src="./assets/img/odsu.png" alt="Одзу" class="itemImage">
+            <h3 class="itemName hot">одзу</h3>
+            <p class="itemDescription">Рис, нори, копченый угорь, снежный краб, сливочный сыр, огурец, помидор, чернила
+                каракатицы, мука «Темпура», сухари «Панко»</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">240</span>
+        </section>
+        <section id="brr_blackDragon" class="item">
+            <img src="./assets/img/black_dragon.png" alt="Чёрный дракон" class="itemImage">
+            <h3 class="itemName">чёрный дракон</h3>
+            <p class="itemDescription">Рис, нори, угорь копченый, свежий лосось, сливочный сыр, авокадо, соус «Унаги»,
+                кунжут, чернила каракатицы</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">270</span>
+        </section>
+        <section id="brr_hirosima" class="item">
+            <img src="./assets/img/hirosima.png" alt="Хиросима" class="itemImage">
+            <h3 class="itemName">хиросима</h3>
+            <p class="itemDescription">Рис, нори, тигровые креветки 5 шт., икра летучей рыбы, сливочный сыр, чернила
+                каракатицы</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">260</span>
+        </section>
+        <section id="brr_philadelphiaBlack" class="item">
+            <img src="./assets/img/philadelphia_black.png" alt="Филадельфия Black" class="itemImage">
+            <h3 class="itemName">филадельфия black</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось, сливочный сыр, чернила каракатицы</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">220</span>
+        </section>
+        <section id="brr_nikko" class="item">
+            <img src="./assets/img/nikko.png" alt="Никко" class="itemImage">
+            <h3 class="itemName">никко</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось, тигровые креветки 2 шт., сливочный сыр, авокадо, икра
+                летучей рыбы, чернила каракатицы</p>
+            <span class="itemWeight">240</span>
+            <span class="itemPrice">215</span>
+        </section>
+        <section id="brr_blackJack" class="item">
+            <img src="./assets/img/black_jack.png" alt="Black Jack" class="itemImage">
+            <h3 class="itemName">black jack</h3>
+            <p class="itemDescription">Рис, нори, свежий лосось, сливочный сыр, огурец, икра летучей рыбы, чернила
+                каракатицы</p>
+            <span class="itemWeight">230</span>
+            <span class="itemPrice">205</span>
+        </section>
+    </article>
+    <h2 class="categoryName">smart сеты<span class="arrow"></span></h2>
+    <article id="smart-sets" class="categoryBox collapse">
+        <section id="smst_smartSet1" class="item">
+            <img src="./assets/img/smart_set_1.png" alt="Smart сет 1" class="itemImage">
+            <h3 class="itemName">smart сет 1</h3>
+            <p class="itemDescription centered">Филадельфия классик<br>Филадельфия с тобико<br>Филадельфия с
+                огурцом<br>Филадельфия ультра</p>
+            <span class="itemWeight">815</span>
+            <span class="itemPrice">525</span>
+        </section>
+        <section id="smst_smartSet2" class="item">
+            <img src="./assets/img/smart_set_2.png" alt="Smart сет 2" class="itemImage">
+            <h3 class="itemName">smart сет 2</h3>
+            <p class="itemDescription centered">SMART Калифорния<br>SMART Сяке маки<br>SMART Унаги маки<br>SMART Эби
+                маки<br>2 суши:<br>Сяке и Унаги</p>
+            <span class="itemWeight">560</span>
+            <span class="itemPrice">400</span>
+        </section>
+        <section id="smst_smartSet3" class="item">
+            <img src="./assets/img/smart_set_3.png" alt="Smart сет 3" class="itemImage">
+            <h3 class="itemName">smart сет 3</h3>
+            <p class="itemDescription centered">Макелано с тунцом<br>Макелано вегетарианский<br>Филадельфия с
+                огурцом<br>Филадельфия классик<br>SMART Калифорния<br>Мехико</p>
+            <span class="itemWeight">1000</span>
+            <span class="itemPrice">730</span>
+        </section>
+    </article>
+    <h2 class="categoryName">сеты<span class="arrow"></span></h2>
+    <article id="sets" class="categoryBox collapse">
+        <section id="sts_california" class="item">
+            <img src="./assets/img/st_california.png" alt="Калифорния" class="itemImage">
+            <h3 class="itemName">калифорния</h3>
+            <p class="itemDescription centered">Калифорния<br>Калифорния Premium<br>Калифорния с крабом<br>Калифорния
+                Mix</p>
+            <span class="itemWeight">940</span>
+            <span class="itemPrice">825</span>
+        </section>
+        <section id="sts_festive" class="item">
+            <img src="./assets/img/st_festive.png" alt="Праздничный" class="itemImage">
+            <h3 class="itemName">праздничный</h3>
+            <p class="itemDescription centered">Филадельфия<br>Идзуми-Тай<br>Лава темпура<br>Аляска<br>Лава
+                маки<br>Тобико маки</p>
+            <span class="itemWeight">1300</span>
+            <span class="itemPrice">980</span>
+        </section>
+        <section id="sts_unagi" class="item">
+            <img src="./assets/img/st_unagi.png" alt="Унаги" class="itemImage">
+            <h3 class="itemName">унаги</h3>
+            <p class="itemDescription centered">Асахи<br>Унаги маки<br>Зеленый дракон</p>
+            <span class="itemWeight">580</span>
+            <span class="itemPrice">585</span>
+        </section>
+        <section id="sts_classic" class="item">
+            <img src="./assets/img/st_classic.png" alt="Классик" class="itemImage">
+            <h3 class="itemName">классик</h3>
+            <p class="itemDescription centered">Филадельфия<br>Калифорния<br>Асахи<br>Лава<br>Аляска<br>Сяке
+                маки<br>Унаги маки</p>
+            <span class="itemWeight">1490</span>
+            <span class="itemPrice">1220</span>
+        </section>
+        <section id="sts_empire" class="item">
+            <img src="./assets/img/st_empire.png" alt="Империя" class="itemImage">
+            <h3 class="itemName">империя</h3>
+            <p class="itemDescription centered">Филадельфия с зеленым луком<br>Калифорния<br>Бонсай<br>Темпура
+                Филадельфия<br>Сяке маки<br>Унаги маки<br>Текка маки<br>Каппа маки</p>
+            <span class="itemWeight">1510</span>
+            <span class="itemPrice">1200</span>
+        </section>
+        <section id="sts_geisha" class="item">
+            <img src="./assets/img/st_geisha.png" alt="Гейша" class="itemImage">
+            <h3 class="itemName">гейша</h3>
+            <p class="itemDescription centered">Филадельфия с луком<br>Лава<br>Лотос<br>Дыхание
+                дракона<br>Хоккайдо<br>Фила маки</p>
+            <span class="itemWeight">1370</span>
+            <span class="itemPrice">1070</span>
+        </section>
+        <section id="sts_yamato" class="item">
+            <img src="./assets/img/st_yamato.png" alt="Ямато" class="itemImage">
+            <h3 class="itemName">ямато</h3>
+            <p class="itemDescription centered">Филадельфия<br>Лава с креветкой<br>Киото<br>Темпура Калифорния<br>Сумоко
+                маки<br>Томато маки</p>
+            <span class="itemWeight">1290</span>
+            <span class="itemPrice">1010</span>
+        </section>
+        <section id="sts_tempura" class="item">
+            <img src="./assets/img/st_tempura.png" alt="Темпура" class="itemImage">
+            <h3 class="itemName">темпура</h3>
+            <p class="itemDescription centered">Темпура Филадельфия<br>Темпура Калифорния<br>Темпура Весений<br>Дыхание
+                дракона<br>Кабуки</p>
+            <span class="itemWeight">1350</span>
+            <span class="itemPrice">1020</span>
+        </section>
+        <section id="sts_exuberance" class="item">
+            <img src="./assets/img/st_exuberance.png" alt="Восторг" class="itemImage">
+            <h3 class="itemName">восторг</h3>
+            <p class="itemDescription centered">Филадельфия<br>Филадельфия с луком<br>Калифорния<br>Калифорния в
+                кунжуте<br>Каппа маки</p>
+            <span class="itemWeight">1085</span>
+            <span class="itemPrice">795</span>
+        </section>
+        <section id="sts_youth" class="item">
+            <img src="./assets/img/st_youth.png" alt="Молодёжный" class="itemImage">
+            <h3 class="itemName">молодёжный</h3>
+            <p class="itemDescription centered">Филадельфия<br>Грин ролл<br>Сяке темпура<br>Темпура весенний<br>Кампино
+                маки</p>
+            <span class="itemWeight">1150</span>
+            <span class="itemPrice">800</span>
+        </section>
+        <section id="sts_murakami" class="item">
+            <img src="./assets/img/st_murakami.png" alt="Мураками" class="itemImage">
+            <h3 class="itemName">мураками</h3>
+            <p class="itemDescription centered">Филадельфия<br>Калифорния<br>Унаги маки<br>Сяке маки<br>Каппа
+                маки<br>Томато маки</p>
+            <span class="itemWeight">1040</span>
+            <span class="itemPrice">740</span>
+        </section>
+        <section id="sts_blackStar" class="item">
+            <img src="./assets/img/st_black_star.png" alt="Black Star" class="itemImage">
+            <h3 class="itemName">black star</h3>
+            <p class="itemDescription centered">Токи<br>Катори<br>Номи<br>Никко<br>Чёрный дракон</p>
+            <span class="itemWeight">1300</span>
+            <span class="itemPrice">1150</span>
+        </section>
+        <section id="sts_yoto" class="item">
+            <img src="./assets/img/st_yoto.png" alt="Йото" class="itemImage">
+            <h3 class="itemName">йото</h3>
+            <p class="itemDescription centered">Филадельфия с луком<br>Калифорния<br>Калифорния с угрем<br>Сяке маки</p>
+            <span class="itemWeight">820</span>
+            <span class="itemPrice">680</span>
+        </section>
+        <section id="sts_misuri" class="item">
+            <img src="./assets/img/st_misuri.png" alt="Миусри" class="itemImage">
+            <h3 class="itemName">мисури</h3>
+            <p class="itemDescription centered">Филадельфия<br>Калифорния<br>Цезарь<br>Сумоко маки</p>
+            <span class="itemWeight">850</span>
+            <span class="itemPrice">650</span>
+        </section>
+        <section id="sts_corporate" class="item">
+            <img src="./assets/img/st_corporate.png" alt="Корпоративный" class="itemImage">
+            <h3 class="itemName">корпоративный</h3>
+            <p class="itemDescription centered">Филадельфия<br>Калифорния микс<br>Калифорния в кунжуте<br>Спайси
+                лосось<br>Цунами<br>Краби<br>Унаги терра<br>Грин<br>Тануки<br>Бонито с лососем<br>Темпура
+                Филадельфия<br>Кабуки<br>Лава маки<br>Томато маки</p>
+            <span class="itemWeight">3100</span>
+            <span class="itemPrice">2350</span>
+        </section>
+    </article>
+    <h2 class="categoryName">суши-сэндвичи<span class="arrow"></span></h2>
+    <article id="sushi-sandwiches" class="categoryBox collapse">
+        <section id="ss_sesame" class="item">
+            <img src="./assets/img/ss_sesame.png" alt="Суши-Сэндвич в кунжуте" class="itemImage">
+            <h3 class="itemName">суши-сэндвич в кунжуте</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, огурец, кунжут</p>
+            <span class="itemWeight">290</span>
+            <span class="itemPrice">240</span>
+        </section>
+        <section id="ss_tobico" class="item">
+            <img src="./assets/img/ss_tobico.png" alt="Суши-Сэндвич в Тобико" class="itemImage">
+            <h3 class="itemName">суши-сэндвич в тобико</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, лист салата, красная икра «Тобико»</p>
+            <span class="itemWeight">290</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="ss_smokedChicken" class="item">
+            <img src="./assets/img/ss_smoked_chicken.png" alt="Суши-Сэндвич с копчёной курицей" class="itemImage">
+            <h3 class="itemName">суши-сэндвич с копчёной курицей</h3>
+            <p class="itemDescription">Копченая курица, сливочный сыр, помидор, лист салата, обжаренный в темпурном
+                кляре и сухарях «Панко»</p>
+            <span class="itemWeight">340</span>
+            <span class="itemPrice">215</span>
+        </section>
+        <section id="ss_salmon" class="item">
+            <img src="./assets/img/ss_salmon.png" alt="Суши-Сэндвич с лососем" class="itemImage">
+            <h3 class="itemName">суши-сэндвич с лососем</h3>
+            <p class="itemDescription">Свежий лосось, сливочный сыр, авокадо, обжаренный в темпурном кляре и сухарях
+                «Панко»</p>
+            <span class="itemWeight">340</span>
+            <span class="itemPrice">250</span>
+        </section>
+        <section id="ss_snowCrab" class="item">
+            <img src="./assets/img/ss_snow_crab.png" alt="Суши-Сэндвич со снежным крабом" class="itemImage">
+            <h3 class="itemName">суши-сэндвич со снежным крабом</h3>
+            <p class="itemDescription">Снежный краб, сливочный сыр, авокадо, красная икра «Тобико», обжаренный в
+                темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">340</span>
+            <span class="itemPrice">240</span>
+        </section>
+        <section id="ss_eel" class="item">
+            <img src="./assets/img/ss_eel.png" alt="Суши-Сэндвич с угрём" class="itemImage">
+            <h3 class="itemName">суши-сэндвич с угрём</h3>
+            <p class="itemDescription">Копченый угорь, сливочный сыр, авокадо, красная икра «Тобико», обжаренный в
+                темпурном кляре и сухарях «Панко»</p>
+            <span class="itemWeight">340</span>
+            <span class="itemPrice">270</span>
+        </section>
+    </article>
+    <h2 class="categoryName">суширитто<span class="arrow"></span></h2>
+    <article id="sushiritto" class="categoryBox collapse">
+        <section id="suri_chicken" class="item">
+            <img src="./assets/img/sr_chicken.png" alt="Суширитто с курицей" class="itemImage">
+            <h3 class="itemName">суширитто с курицей</h3>
+            <p class="itemDescription">Копченая курица, сливочный сыр, огурец, помидор, пекинская капуста, соус «Кимчи»
+            </p>
+            <span class="itemWeight">320</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="suri_salmon" class="item">
+            <img src="./assets/img/sr_salmon.png" alt="Суширитто с лососем" class="itemImage">
+            <h3 class="itemName">суширитто с лососем</h3>
+            <p class="itemDescription">Имбирь маринованный, свежий лосось, помидор, пекинская капуста, соус «Кимчи»</p>
+            <span class="itemWeight">300</span>
+            <span class="itemPrice">170</span>
+        </section>
+        <section id="suri_tigerShrimp" class="item">
+            <img src="./assets/img/sr_tiger_shrimp.png" alt="Суширитто с тигровой креветкой" class="itemImage">
+            <h3 class="itemName">суширитто с тигровой креветкой</h3>
+            <p class="itemDescription">Тигровая креветка, икра тобико, огурец, сливочный сыр, пекинская капуста,
+                японский майонез</p>
+            <span class="itemWeight">320</span>
+            <span class="itemPrice">190</span>
+        </section>
+        <section id="suri_eel" class="item">
+            <img src="./assets/img/sr_eel.png" alt="Суширитто с угрём" class="itemImage">
+            <h3 class="itemName">суширитто с угрём</h3>
+            <p class="itemDescription">Угорь, перец сладкий, авокадо, пекинская капуста, соус «Унаги»</p>
+            <span class="itemWeight">310</span>
+            <span class="itemPrice">200</span>
+        </section>
+    </article>
+    <h2 class="categoryName">гунканы<span class="arrow"></span></h2>
+    <article id="gunkans" class="categoryBox collapse">
+        <section id="gk_greenTobico" class="item">
+            <img src="./assets/img/gk_green_tobico.png" alt="Гункан с зелёной Тобико" class="itemImage">
+            <h3 class="itemName">гункан с зелёной тобико</h3>
+            <p class="itemDescription">Рис, нори, зелёная «тобико»</p>
+            <span class="itemWeight">40</span>
+            <span class="itemPrice">65</span>
+        </section>
+        <section id="gk_redTobico" class="item">
+            <img src="./assets/img/gk_red_tobico.png" alt="Гункан с красной Тобико" class="itemImage">
+            <h3 class="itemName">гункан с красной тобико</h3>
+            <p class="itemDescription">Рис, нори, красная «Тобико»</p>
+            <span class="itemWeight">40</span>
+            <span class="itemPrice">65</span>
+        </section>
+        <section id="gk_salmon" class="item">
+            <img src="./assets/img/gk_salmon.png" alt="Гункан с лососем" class="itemImage">
+            <h3 class="itemName">гункан с лососем</h3>
+            <p class="itemDescription">Рис, лосось, соус «Кимчи»</p>
+            <span class="itemWeight">50</span>
+            <span class="itemPrice">65</span>
+        </section>
+        <section id="gk_tigerShrimp" class="item">
+            <img src="./assets/img/gk_tiger_shrimp.png" alt="Гункан с тигровой креветкой" class="itemImage">
+            <h3 class="itemName">гункан с тигровой креветкой</h3>
+            <p class="itemDescription">Рис, тигровая креветка, соус «Кимчи»</p>
+            <span class="itemWeight">50</span>
+            <span class="itemPrice">65</span>
+        </section>
+    </article>
+    <h2 class="categoryName">лапша и рис wok<span class="arrow"></span></h2>
+    <article id="noddle-rice-wok" class="categoryBox collapse">
+        <section id="nr_udonShrimp" class="item">
+            <img src="./assets/img/nw_udon_shrimps.png" alt="Удон с креветками" class="itemImage">
+            <h3 class="itemName">удон с креветками</h3>
+            <p class="itemDescription">Лапша Удон с обжаренными тигровыми креветками в фирменном тайском соусе с
+                овощами: болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">205</span>
+        </section>
+        <section id="nr_sobaShrimp" class="item">
+            <img src="./assets/img/nw_soba_shrimps.png" alt="Соба с креветками" class="itemImage">
+            <h3 class="itemName">соба с креветками</h3>
+            <p class="itemDescription">Гречневая лапша с обжаренными тигровыми креветками в фирменном тайском соусе с
+                овощами: болгарский перец, лук репчатый, кабачок, морковь бейби, арахис, лук зеленый, брюссельская
+                капуста</p>
+            <span class="itemWeight">350</span>
+            <span class="itemPrice">205</span>
+        </section>
+        <section id="nr_fensiShrimps" class="item">
+            <img src="./assets/img/nw_fensi_shrimps.png" alt="Фунчоза с креветками" class="itemImage">
+            <h3 class="itemName">фунчоза с креветками</h3>
+            <p class="itemDescription">Стеклянная лапша с обжаренными тигровыми креветками в фирменном тайском соусе с
+                овощами: болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">320</span>
+            <span class="itemPrice">205</span>
+        </section>
+        <section id="nr_udonVeal" class="item">
+            <img src="./assets/img/nw_udon_veal.png" alt="Удон с телятиной" class="itemImage">
+            <h3 class="itemName">удон с телятиной</h3>
+            <p class="itemDescription">Лапша Удон с обжаренной сочной телятиной в фирменном тайском соусе с овощами:
+                болгарский перец, лук репчатый, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="nr_sobaVeal" class="item">
+            <img src="./assets/img/nw_soba_veal.png" alt="Соба с телятиной" class="itemImage">
+            <h3 class="itemName">собы с телятиной</h3>
+            <p class="itemDescription">Гречневая лапша с обжаренной сочной телятиной в фирменном тайском соусе с
+                овощами: болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="nr_fensiVeal" class="item">
+            <img src="./assets/img/nw_fensi_veal.png" alt="Фунчоза с телятиной" class="itemImage">
+            <h3 class="itemName">фунчоза с телятиной</h3>
+            <p class="itemDescription">Стеклянная лапша с обжаренной сочной телятиной в фирменном тайском соусе с
+                овощами: болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="nr_udonPork" class="item">
+            <img src="./assets/img/nw_udon_pork.png" alt="Удон со свининой" class="itemImage">
+            <h3 class="itemName">удон со свининой</h3>
+            <p class="itemDescription">Лапша Удон с обжаренной свининой в фирменном тайском соусе и нежно обжаренными
+                овощами: болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">155</span>
+        </section>
+        <section id="nr_sobaPork" class="item">
+            <img src="./assets/img/nw_soba_pork.png" alt="Соба со свининой" class="itemImage">
+            <h3 class="itemName">соба со свининой</h3>
+            <p class="itemDescription">Гречневая лапша с обжаренной свининой в фирменном тайском соусе с овощами:
+                болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">155</span>
+        </section>
+        <section id="nr_fensiPork" class="item">
+            <img src="./assets/img/nw_fensi_pork.png" alt="Фунчоза со свининой" class="itemImage">
+            <h3 class="itemName">фунчоза со свининой</h3>
+            <p class="itemDescription">Стеклянная лапша с обжаренной свининой в фирменном тайском соусе, нежно
+                обжаренными овощами: болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская
+                капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">155</span>
+        </section>
+        <section id="nr_udonChicken" class="item">
+            <img src="./assets/img/nw_udon_chicken.png" alt="Удон с курицей" class="itemImage">
+            <h3 class="itemName">удон с курицей</h3>
+            <p class="itemDescription">Лапша Удон с обжаренной курицей в фирменном тайском соусе с овощами: болгарский
+                перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="nr_sobaChicken" class="item">
+            <img src="./assets/img/nw_soba_chicken.png" alt="Соба с курицей" class="itemImage">
+            <h3 class="itemName">соба с курицей/h3>
+                <p class="itemDescription">Гречневая лапша с обжаренной курицей в фирменном тайском соусе с овощами:
+                    болгарский перец, лук репчатый, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста
+                </p>
+                <span class="itemWeight">370</span>
+                <span class="itemPrice">140</span>
+        </section>
+        <section id="nr_fensiChicken" class="item">
+            <img src="./assets/img/nw_fensi_chicken.png" alt="Фунчоза с курицей" class="itemImage">
+            <h3 class="itemName">фунчоза с курицей</h3>
+            <p class="itemDescription">Стекляная лапша с обжаренной курицей в фирменном тайском соусе с овощами:
+                болгарский перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="nr_chahanShrimps" class="item">
+            <img src="./assets/img/rw_chahan_shrimps.png" alt="Тяхан с креветками" class="itemImage">
+            <h3 class="itemName">тяхан с креветками</h3>
+            <p class="itemDescription">Тайский рис с обжаренными тигровыми креветками в фирменном тайском соусе с
+                добавлением помидоров, куриного яйца, чесночного соуса, морковки, болгарского перца, зеленого лука,
+                кунжута</p>
+            <span class="itemWeight">350</span>
+            <span class="itemPrice">205</span>
+        </section>
+        <section id="nr_chahanVeal" class="item">
+            <img src="./assets/img/rw_chahan_veal.png" alt="Тяхан с телятиной" class="itemImage">
+            <h3 class="itemName">тяхан с телятиной</h3>
+            <p class="itemDescription">Тайский рис с обжаренной телятиной в фирменном тайском соусе с добавлением
+                помидоров, куриного яйца, чесночного соуса, морковки, болгарского перца, зеленого лука, кунжута</p>
+            <span class="itemWeight">350</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="nr_chahanPork" class="item">
+            <img src="./assets/img/rw_chahan_pork.png" alt="Тяхан со свининой" class="itemImage">
+            <h3 class="itemName">тяхан со свининой</h3>
+            <p class="itemDescription">Тайский рис с обжаренной свининой в фирменном тайском соусе с добавлением
+                помидоров, куриного яйца, чесночного соуса, морковки, болгарского перца, зеленого лука, кунжута</p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">155</span>
+        </section>
+        <section id="nr_chahanChicken" class="item">
+            <img src="./assets/img/rw_chahan_chicken.png" alt="Тяхан с курицей" class="itemImage">
+            <h3 class="itemName">тяхан с курицей</h3>
+            <p class="itemDescription">Тайский рис с обжаренной курицей в фирменом тайском соусе с добавлением
+                помидоров, куриного филе, яйца, чесночного соуса, морковки, болгарского перца, зеленого лука, кунжута
+            </p>
+            <span class="itemWeight">370</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="nr_udonVegetables" class="item">
+            <img src="./assets/img/nw_udon_vegetables.png" alt="Удон с овощами" class="itemImage">
+            <h3 class="itemName">удон с овощами</h3>
+            <p class="itemDescription">Лапша Удон в фирменном тайском соусе, нежно обжаренными овощами: болгарский
+                перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">320</span>
+            <span class="itemPrice">110</span>
+        </section>
+        <section id="nr_sobaVegetables" class="item">
+            <img src="./assets/img/nw_soba_vegetables.png" alt="Соба с овощами" class="itemImage">
+            <h3 class="itemName">соба с овощами</h3>
+            <p class="itemDescription">Гречневая лапша с фирменным тайским соусом,нежно обжаренными овощами: болгарский
+                перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">330</span>
+            <span class="itemPrice">110</span>
+        </section>
+        <section id="nr_fensiVegetables" class="item">
+            <img src="./assets/img/nw_fensi_vegetables.png" alt="Фунчоза с овощами" class="itemImage">
+            <h3 class="itemName">фунчоза с овощами</h3>
+            <p class="itemDescription">Стекляная лапша с фирменным тайским соусом, нежно обжаренными овощами: болгарский
+                перец, лук, кабачок, морковь бейби, арахис, лук зеленый, брюссельская капуста</p>
+            <span class="itemWeight">320</span>
+            <span class="itemPrice">110</span>
+        </section>
+        <section id="nr_chahanVegetables" class="item">
+            <img src="./assets/img/rw_chahan_vegetables.png" alt="Тяхан с овощами" class="itemImage">
+            <h3 class="itemName">тяхан с овощами</h3>
+            <p class="itemDescription">Тайский рис с фирменным тайским соусом с добавлением: помидоров, куриного яйца,
+                чесночного соуса, морковки, болгарского перца, зеленого лука, кунжута</p>
+            <span class="itemWeight">320</span>
+            <span class="itemPrice">110</span>
+        </section>
+    </article>
+    <h2 class="categoryName">пиццы<span class="arrow"></span></h2>
+    <article id="pizzas" class="categoryBox collapse">
+        <section id="pz_mexican" class="item">
+            <img src="./assets/img/pz_mexican.png" alt="Мексиканская" class="itemImage">
+            <h3 class="itemName">мексиканская</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», бекон, салями, курица, шампиньоны, перец
+                болгарский, лук синий, оливки, перец «Халапеньо»</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">190</span>
+                <span class="itemHighPrice">250</span>
+            </div>
+        </section>
+        <section id="pz_avocado" class="item">
+            <img src="./assets/img/pz_avocado.png" alt="С авокадо" class="itemImage">
+            <h3 class="itemName">с авокадо</h3>
+            <p class="itemDescription">Соус сливочный, сыр «Моцарелла», курица, авокадо, руккола, помидор «Черри», сыр
+                «Пармезан»</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">180</span>
+                <span class="itemHighPrice">245</span>
+            </div>
+        </section>
+        <section id="pz_salmonShrimp" class="item">
+            <img src="./assets/img/pz_salmon_shrimp.png" alt="С лососем и креветкой" class="itemImage">
+            <h3 class="itemName">с лососем и креветкой</h3>
+            <p class="itemDescription">Соус сливочный, сыр «Моцарелла», креветка тигровая, лосось, перец болгарский,
+                маслины, оливки, сыр «Пармезан»</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">245</span>
+                <span class="itemHighPrice">310</span>
+            </div>
+        </section>
+        <section id="pz_carbonara" class="item">
+            <img src="./assets/img/pz_carbonara.png" alt="Карбонара" class="itemImage">
+            <h3 class="itemName">карбонара</h3>
+            <p class="itemDescription">Соус белый, сыр «Моцарелла», бекон, шампиньоны, помидор «Черри», руккола, сыр
+                «Пармезан», желток яйца</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">180</span>
+                <span class="itemHighPrice">245</span>
+            </div>
+        </section>
+        <section id="pz_rustic" class="item">
+            <img src="./assets/img/pz_rustic.png" alt="Деревенская" class="itemImage">
+            <h3 class="itemName">деревенская</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», буженина, курица, шампиньоны, огурец соленый</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">170</span>
+                <span class="itemHighPrice">220</span>
+            </div>
+        </section>
+        <section id="pz_pepperoni" class="item">
+            <img src="./assets/img/pz_pepperoni.png" alt=Пепперони"" class="itemImage">
+            <h3 class="itemName">пепперони</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», салями, перец болгарский маринованный, маслины</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">200</span>
+                <span class="itemHighPrice">255</span>
+            </div>
+        </section>
+        <section id="pz_florentine" class="item">
+            <img src="./assets/img/pz_florentine.png" alt="Флорентийская" class="itemImage">
+            <h3 class="itemName">флорентийская</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», окорок свиной, салями, помидор, шампиньоны, перец
+                болгарский, лук синий</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">185</span>
+                <span class="itemHighPrice">245</span>
+            </div>
+        </section>
+        <section id="pz_quattro_formaggi" class="item">
+            <img src="./assets/img/pz_quattro_formaggi.png" alt="4 Сыра" class="itemImage">
+            <h3 class="itemName">4 сыра</h3>
+            <p class="itemDescription">Соус сливочный, сыр «Моцарелла», сыр «Фета», сыр «Пармезан», сыр «Дор Блю»,
+                руккола</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">190</span>
+                <span class="itemHighPrice">260</span>
+            </div>
+        </section>
+        <section id="pz_palermo" class="item">
+            <img src="./assets/img/pz_palermo.png" alt="Палермо" class="itemImage">
+            <h3 class="itemName">палермо</h3>
+            <p class="itemDescription">Соус сливочный, сыр «Моцарелла», бекон, курица, сыр «Фета», томаты вяленые</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">175</span>
+                <span class="itemHighPrice">230</span>
+            </div>
+        </section>
+        <section id="pz_palermo_arugula" class="item">
+            <img src="./assets/img/pz_palermo_arugula.png" alt="Палермо с рукколой" class="itemImage">
+            <h3 class="itemName">палермо с рукколой</h3>
+            <p class="itemDescription">Соус сливочный, сыр «Моцарелла», бекон, курица, сыр «Фета», руккола</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">180</span>
+                <span class="itemHighPrice">235</span>
+            </div>
+        </section>
+        <section id="pz_diablo" class="item">
+            <img src="./assets/img/pz_diablo.png" alt="Дьябола" class="itemImage">
+            <h3 class="itemName">дьябола</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», бекон, салями, шампиньоны, перец чили</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">175</span>
+                <span class="itemHighPrice">225</span>
+            </div>
+        </section>
+        <section id="pz_regina" class="item">
+            <img src="./assets/img/pz_regina.png" alt="Реджина" class="itemImage">
+            <h3 class="itemName">реджина</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», салями, ветчина, шампиньоны, помидоры</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">165</span>
+                <span class="itemHighPrice">220</span>
+            </div>
+        </section>
+        <section id="pz_frutti-di-mare" class="item">
+            <img src="./assets/img/pz_frutti-di-mare.png" alt="Фрутти ди Маре" class="itemImage">
+            <h3 class="itemName">фрутти ди маре</h3>
+            <p class="itemDescription">Соус розовый, сыр «Моцарелла», кальмары, мидии, креветка коктельная, гребешок
+                морской, лосось, маслины, оливки</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">240</span>
+                <span class="itemHighPrice">300</span>
+            </div>
+        </section>
+        <section id="pz_vegetarian" class="item">
+            <img src="./assets/img/pz_vegetarian.png" alt="Вегетарианская" class="itemImage">
+            <h3 class="itemName">вегетарианская</h3>
+            <p class="itemDescription">Соус сливочный, сыр «Моцарелла», шампиньоны, перец болгарский, помидор, фасоль
+                стручковая</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">140</span>
+                <span class="itemHighPrice">180</span>
+            </div>
+        </section>
+        <section id="pz_margarita" class="item">
+            <img src="./assets/img/pz_margarita.png" alt="Маргарита" class="itemImage">
+            <h3 class="itemName">маргарита</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», помидор</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">115</span>
+                <span class="itemHighPrice">165</span>
+            </div>
+        </section>
+        <section id="pz_hawaiian" class="item">
+            <img src="./assets/img/pz_hawaiian.png" alt="Гавайская" class="itemImage">
+            <h3 class="itemName">гавайская</h3>
+            <p class="itemDescription">Соус розовый, сыр «Моцарелла», ветчина, курица, ананас</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">160</span>
+                <span class="itemHighPrice">210</span>
+            </div>
+        </section>
+        <section id="pz_meat" class="item">
+            <img src="./assets/img/pz_meat.png" alt="Мясная" class="itemImage">
+            <h3 class="itemName">мясная</h3>
+            <p class="itemDescription"></p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">190</span>
+                <span class="itemHighPrice">250</span>
+            </div>
+        </section>
+        <section id="pz_4_meats" class="item">
+            <img src="./assets/img/pz_4_meats.png" alt="4 Мяса" class="itemImage">
+            <h3 class="itemName">4 мяса</h3>
+            <p class="itemDescription">Соус сливочно-чесночный, сыр «Моцарелла», буженина, телятина, курица, филе
+                свиное, шампиньоны, каперсы</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">200</span>
+                <span class="itemHighPrice">250</span>
+            </div>
+        </section>
+        <section id="pz_bbq" class="item">
+            <img src="./assets/img/pz_bbq.png" alt="BBQ" class="itemImage">
+            <h3 class="itemName">bbq</h3>
+            <p class="itemDescription">Соус BBQ, сыр «Моцарелла», колбаски охотничьи, окорок свиной, перец болгарский,
+                лук синий</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">165</span>
+                <span class="itemHighPrice">220</span>
+            </div>
+        </section>
+        <section id="pz_hunting" class="item">
+            <img src="./assets/img/pz_hunting.png" alt="Охотничья" class="itemImage">
+            <h3 class="itemName">охотничья</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», колбаски охотничьи, бекон, шампиньоны, помидор</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">185</span>
+                <span class="itemHighPrice">240</span>
+            </div>
+        </section>
+        <section id="pz_hearty" class="item">
+            <img src="./assets/img/pz_hearty.png" alt="Сытная" class="itemImage">
+            <h3 class="itemName">сытная</h3>
+            <p class="itemDescription">Соус красный, сыр «Моцарелла», буженина, салями, ветчина, свиная вырезка,
+                помидор, маслины</p>
+            <div class="itemPrices">
+                <span class="itemSmallSize">30</span>
+                <span class="itemLargeSize">40</span>
+                <span class="itemLowPrice">200</span>
+                <span class="itemHighPrice">270</span>
+            </div>
+        </section>
+    </article>
+    <h2 class="categoryName">футомаки<span class="arrow"></span></h2>
+    <article id="futomaki" class="categoryBox collapse">
+        <section id="fm_friedSalmon" class="item">
+            <img src="./assets/img/futomaki/fm_fried_salmon_s_logo.jpg" alt="С жареным лососем" class="itemImage">
+            <h3 class="itemName">с жареным лососем</h3>
+            <p class="itemDescription">Рис, сыр, лосось, огурец, лист салата</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">245</span>
+        </section>
+        <section id="fm_crab" class="item">
+            <img src="./assets/img/futomaki/fm_crab_s_logo.jpg" alt="С крабом" class="itemImage">
+            <h3 class="itemName">с крабом</h3>
+            <p class="itemDescription">Рис, сыр, краб, Тобико красная, авокадо</p>
+            <span class="itemWeight">260</span>
+            <span class="itemPrice">230</span>
+        </section>
+        <section id="fm_shrimp" class="item">
+            <img src="./assets/img/futomaki/fm_shrimp_s_logo.jpg" alt="С креветкой" class="itemImage">
+            <h3 class="itemName">с креветкой</h3>
+            <p class="itemDescription">Рис, сыр, креветка, огурец, лист салата</p>
+            <span class="itemWeight">250</span>
+            <span class="itemPrice">220</span>
+        </section>
+        <section id="fm_salmon" class="item">
+            <img src="./assets/img/futomaki/fm_salmon_s_logo.jpg" alt="С лососем" class="itemImage">
+            <h3 class="itemName">с лососем</h3>
+            <p class="itemDescription">Рис, сыр, лосось, авокадо, огурец, лист салата</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">240</span>
+        </section>
+        <section id="fm_eel" class="item">
+            <img src="./assets/img/futomaki/fm_eel_s_logo.jpg" alt="С угрём" class="itemImage">
+            <h3 class="itemName">с угрём</h3>
+            <p class="itemDescription">Рис, сыр, угорь, огурец, лист салата</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">240</span>
+        </section>
+    </article>
+    <h2 class="categoryName">детские роллы<span class="arrow"></span></h2>
+    <article id="kids-rolls" class="categoryBox collapse">
+        <section id="kd_donatello" class="item">
+            <img src="./assets/img/kids/donatello_s_logo.jpg" alt="Донателло" class="itemImage">
+            <h3 class="itemName">донателло</h3>
+            <p class="itemDescription">Соевая бумага, рис, сыр, снежный краб, Тобико, лист салата</p>
+            <span class="itemWeight">280</span>
+            <span class="itemPrice">150</span>
+        </section>
+        <section id="kd_leonardo" class="item">
+            <img src="./assets/img/kids/leonardo_s_logo.jpg" alt="Леонардо" class="itemImage">
+            <h3 class="itemName">леонардо</h3>
+            <p class="itemDescription">Соевая бумага, рис, сыр, жареный лосось, огурец, лист салата</p>
+            <span class="itemWeight">135</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="kd_michelangelo" class="item">
+            <img src="./assets/img/kids/michelangelo_s_logo.jpg" alt="Микеланджело" class="itemImage">
+            <h3 class="itemName">микеланджело</h3>
+            <p class="itemDescription">Соевая бумага, рис, сыр, креветка, огурец, лист салата</p>
+            <span class="itemWeight">140</span>
+            <span class="itemPrice">160</span>
+        </section>
+        <section id="kd_rafael" class="item">
+            <img src="./assets/img/kids/rafael_s_logo.jpg" alt="Рафаэль" class="itemImage">
+            <h3 class="itemName">рафаэль</h3>
+            <p class="itemDescription">Соевая бумага, рис, сыр, Чука, лист салата, ореховый соус</p>
+            <span class="itemWeight">125</span>
+            <span class="itemPrice">140</span>
+        </section>
+        <section id="kd_ninjaSet" class="item">
+            <img src="./assets/img/kids/kids_cat.jpg" alt="Ниндзя сет" class="itemImage">
+            <h3 class="itemName">ниндзя сет</h3>
+            <p class="itemDescription">Леонардо, Рафаэль, Микеланджело, Донателло, Сенсей</p>
+            <span class="itemWeight">650</span>
+            <span class="itemPrice">600</span>
+        </section>
+        <section id="kd_sensei" class="item">
+            <img src="./assets/img/kids/sensei_s_logo.jpg" alt="Сенсей" class="itemImage">
+            <h3 class="itemName">сенсей</h3>
+            <p class="itemDescription">Соевая бумага, рис, сыр, перец, помидор, лист салата</p>
+            <span class="itemWeight">125</span>
+            <span class="itemPrice">140</span>
+        </section>
+    </article>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
