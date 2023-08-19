@@ -1,0 +1,612 @@
+{
+  "ru": {
+    "categoryName": {
+      "classic-rolls": {
+        "name": "роллы классические",
+        "item": [
+          {
+            "id": "cr_asiya",
+            "itemName": "асия",
+            "itemDescription": "Свежий лосось, тигровые креветки, снежный краб, сливочный сыр, перец болгарский, огурец, зеленый лук",
+            "itemWeight": 280,
+            "itemPrice": 265
+          },
+          {
+            "id": "cr_tokyo",
+            "itemName": "токио",
+            "itemDescription": "Свежий лосось, креветка, икра летучей рыбы, сливочный сыр, авокадо",
+            "itemWeight": 280,
+            "itemPrice": 260
+          },
+          {
+            "id": "cr_tigerDragon",
+            "itemName": "тигровый дракон",
+            "itemDescription": "Рис, нори, снежный краб, икра «Тобико», авокадо, тигровая креветка 5 шт",
+            "itemWeight": 260,
+            "itemPrice": 250
+          },
+          {
+            "id": "cr_philadelphia",
+            "itemName": "филадельфия",
+            "itemDescription": "Сочный лосось, сливочный сыр, огурец",
+            "itemWeight": 250,
+            "itemPrice": 200
+          },
+          {
+            "id": "cr_philadelphiaAvocado",
+            "itemName": "филадельфия с авокадо",
+            "itemDescription": "Свежий лосось, сливочный сыр, авокадо",
+            "itemWeight": 250,
+            "itemPrice": 215
+          },
+          {
+            "id": "cr_philadelphiaMega",
+            "itemName": "филадельфия mega",
+            "itemDescription": "Сливочный сыр, огурец, двойной лосось, меньше риса",
+            "itemWeight": 290,
+            "itemPrice": 260
+          },
+          {
+            "id": "cr_philadelphiaPremium",
+            "itemName": "филадельфия premium",
+            "itemDescription": "Ещё больше сочного лосося, сливочный сыр, огурец",
+            "itemWeight": 270,
+            "itemPrice": 230
+          },
+          {
+            "id": "cr_philadelphiaDeluxe",
+            "itemName": "филадельфия deluxe",
+            "itemDescription": "Рис, нори, лосось, авокадо, икра «Тобико», сливочный сыр",
+            "itemWeight": 270,
+            "itemPrice": 250
+          },
+          {
+            "id": "cr_philadelphiaCrab",
+            "itemName": "филадельфия с крабом",
+            "itemDescription": "Рис, нори, лосось, авокадо, икра «Тобико», снежный краб, сливочный сыр",
+            "itemWeight": 270,
+            "itemPrice": 240
+          },
+          {
+            "id": "cr_philadelphiaGreenOnion",
+            "itemName": "филадельфия с зелёным луком",
+            "itemDescription": "Сочный лосось, зеленый лук, сливочный сыр",
+            "itemWeight": 230,
+            "itemPrice": 180
+          },
+          {
+            "id": "cr_philadelphiaEel",
+            "itemName": "филадельфия с угрём",
+            "itemDescription": "Свежий лосось, копченый угорь, огурец, авокадо, икра летучей рыбы",
+            "itemWeight": 230,
+            "itemPrice": 220
+          },
+          {
+            "id": "cr_philadelphiaTigerShrimp",
+            "itemName": "филадельфия с тигровой креветкой",
+            "itemDescription": "Рис, нори, сливочный сыр, огурец, тигровая креветка 5 шт",
+            "itemWeight": 250,
+            "itemPrice": 245
+          },
+          {
+            "id": "cr_akay",
+            "itemName": "акай",
+            "itemDescription": "Рис, нори, угорь, сливочный сыр, огурец, окунь",
+            "itemWeight": 250,
+            "itemPrice": 205
+          },
+          {
+            "id": "cr_asahi",
+            "itemName": "асахи",
+            "itemDescription": "Копчёный угорь, снежный краб, сливочный сыр, авокадо, икра летучей рыбы",
+            "itemWeight": 240,
+            "itemPrice": 245
+          },
+          {
+            "id": "cr_royalDragon",
+            "itemName": "королевский дракон",
+            "itemDescription": "Копченый угорь, снежный краб, соус «Кимчи», икра летучей рыбы, авокадо, кунжут",
+            "itemWeight": 250,
+            "itemPrice": 255
+          },
+          {
+            "id": "cr_dragonDream",
+            "itemName": "мечта дракона",
+            "itemDescription": "Копченый угорь, снежный краб, японский майонез, авокадо, огурец",
+            "itemWeight": 240,
+            "itemPrice": 230
+          },
+          {
+            "id": "cr_california",
+            "itemName": "калифорния",
+            "itemDescription": "Снежный краб, сливочный сыр, авокадо, икра летучей рыбы",
+            "itemWeight": 230,
+            "itemPrice": 200
+          },
+          {
+            "id": "cr_unagiTerra",
+            "itemName": "унаги терра",
+            "itemDescription": "Копченый угорь, сливочный сыр, огурец, посыпан кунжутом",
+            "itemWeight": 230,
+            "itemPrice": 200
+          },
+          {
+            "id": "cr_californiaMix",
+            "itemName": "калифорния mix",
+            "itemDescription": "Свежий лосось, лист салата, сливочный сыр, икра летучей рыбы",
+            "itemWeight": 230,
+            "itemPrice": 195
+          },
+          {
+            "id": "cr_californiaNight",
+            "itemName": "калифорния night",
+            "itemDescription": "Снежный краб, сливочный сыр, огурец, икра летучей рыбы",
+            "itemWeight": 240,
+            "itemPrice": 180
+          },
+          {
+            "id": "cr_californiaCrab",
+            "itemName": "калифорния с крабом",
+            "itemDescription": "Снежный краб, огурец, авокадо, икра летучей рыбы",
+            "itemWeight": 240,
+            "itemPrice": 225
+          },
+          {
+            "id": "cr_californiaSesame",
+            "itemName": "калифорния в кунжуте",
+            "itemDescription": "Снежный краб, сливочный сыр, авокадо, кунжут",
+            "itemWeight": 240,
+            "itemPrice": 165
+          },
+          {
+            "id": "cr_californiaPremium",
+            "itemName": "калифорния premium",
+            "itemDescription": "Снежный краб, авокадо, соус «Кимчи», икра летучей рыбы",
+            "itemWeight": 240,
+            "itemPrice": 230
+          },
+          {
+            "id": "cr_californiaEel",
+            "itemName": "калифорния с крабом",
+            "itemDescription": "Копченый угорь, огурец, авокадо, кунжут",
+            "itemWeight": 220,
+            "itemPrice": 185
+          },
+          {
+            "id": "cr_lava",
+            "itemName": "лава",
+            "itemDescription": "Свежий лосось, огурец, сливочный сыр, кунжут, фирменный соус «Лава»",
+            "itemWeight": 250,
+            "itemPrice": 215
+          },
+          {
+            "id": "cr_lavaTigerShrimp",
+            "itemName": "лава с тигровой креветкой",
+            "itemDescription": "Тигровая креветка, сливочный сыр, огурец, фирменный соус «Лава»",
+            "itemWeight": 240,
+            "itemPrice": 210
+          },
+          {
+            "id": "cr_lavaEel",
+            "itemName": "лава с угрём",
+            "itemDescription": "Копченый угорь, огурец, сливочный сыр, фирменный соус «Лава»",
+            "itemWeight": 260,
+            "itemPrice": 210
+          },
+          {
+            "id": "cr_haru",
+            "itemName": "хару",
+            "itemDescription": "Рис, нори, лосось, сливочный сыр, авокадо, соус «Кимчи»",
+            "itemWeight": 210,
+            "itemPrice": 195
+          },
+          {
+            "id": "cr_lavaEbiTempura",
+            "itemName": "лава эби темпура",
+            "itemDescription": "Огурец, тигровая креветка темпура, соус «Кимчи», покрыт чесночным соусом, кунжут",
+            "itemWeight": 250,
+            "itemPrice": 225
+          },
+          {
+            "id": "cr_amatera",
+            "itemName": "аматера",
+            "itemDescription": "Свежий лосось, копченый угорь, огурец, сливочный сыр, кунжут",
+            "itemWeight": 225,
+            "itemPrice": 215
+          },
+          {
+            "id": "cr_yasay",
+            "itemName": "ясай",
+            "itemDescription": "Свежий лосось, авокадо, сливочный сыр, снежный краб, икра «Тобико», унаги, кунжут",
+            "itemWeight": 260,
+            "itemPrice": 235
+          },
+          {
+            "id": "cr_bonsay",
+            "itemName": "бонсай",
+            "itemDescription": "Лосось, сливочный сыр, огурец, соус «Кимчи», икра летучей рыбы",
+            "itemWeight": 230,
+            "itemPrice": 205
+          },
+          {
+            "id": "cr_chess",
+            "itemName": "шахматы",
+            "itemDescription": "Снежный краб, авокадо, сливочный сыр, икра летучей рыбы",
+            "itemWeight": 240,
+            "itemPrice": 200
+          },
+          {
+            "id": "cr_ebiTempura",
+            "itemName": "эби темпура",
+            "itemDescription": "Огурец, тигровая креветка темпура, соус Кимчи, кунжут",
+            "itemWeight": 230,
+            "itemPrice": 200
+          },
+          {
+            "id": "cr_bonitoTuna",
+            "itemName": "бонито с тунцом",
+            "itemDescription": "Рис, нори, тунец, сливочный сыр, тобика, лук зеленый, стружка тунца",
+            "itemWeight": 220,
+            "itemPrice": 190
+          },
+          {
+            "id": "cr_greenDragon",
+            "itemName": "зелёный дракон",
+            "itemDescription": "Угорь копченый, огурец, икра летучей рыбы, сливочный сыр, кунжут, накрыт авокадо и полит Унаги соусом",
+            "itemWeight": 220,
+            "itemPrice": 240
+          },
+          {
+            "id": "cr_okinava",
+            "itemName": "окинава",
+            "itemDescription": "Свежий лосось, копченый угорь, авокадо, огурец, икра летучей рыбы",
+            "itemWeight": 210,
+            "itemPrice": 225
+          },
+          {
+            "id": "cr_tokusey",
+            "itemName": "токусей",
+            "itemDescription": "Свежий лосось, сливочный сыр, лист салата, авокадо, накрытый огурцом",
+            "itemWeight": 200,
+            "itemPrice": 175
+          },
+          {
+            "id": "cr_alaska",
+            "itemName": "аляска",
+            "itemDescription": "Свежий лосось, огурец, сливочный сыр, кунжут",
+            "itemWeight": 230,
+            "itemPrice": 185
+          },
+          {
+            "id": "cr_cesar",
+            "itemName": "цезарь",
+            "itemDescription": "Копченая курочка, помидор, лист салата, сливочный сыр, посыпан черным и белым кунжутом",
+            "itemWeight": 230,
+            "itemPrice": 180
+          }
+        ]
+      },
+      "warm-rolls": {
+        "name": "тёплые роллы",
+        "item": [
+          {
+            "id": "wr_idsumiTai",
+            "itemName": "идзуми-тай",
+            "itemDescription": "Рис, нори, окунь темпура, сливочный сыр, помидор, соус кимчи, лук зеленый, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 260,
+            "itemPrice": 230
+          },
+          {
+            "id": "wr_premiumRoll",
+            "itemName": "premium ролл",
+            "itemDescription": "Ролл с семгой, копченым угрем, икрой летучей рыбы, слив. сыр, авокадо",
+            "itemWeight": 300,
+            "itemPrice": 250
+          },
+          {
+            "id": "wr_tempuraPhiladelphia",
+            "itemName": "темпура филадельфия",
+            "itemDescription": "Рис, нори, свежий лосось, сливочный сыр, авокадо, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 260,
+            "itemPrice": 230
+          },
+          {
+            "id": "wr_tempuraCalifornia",
+            "itemName": "темпура калифорния",
+            "itemDescription": "Рис, нори, снежный краб, сливочный сыр, авокадо, икра летучей рыбы, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 290,
+            "itemPrice": 230
+          },
+          {
+            "id": "wr_tempuraSpring",
+            "itemName": "темпура весенний",
+            "itemDescription": "Огурец, авокадо, помидор, болгарский перец, лист салата, сливочный сыр",
+            "itemWeight": 240,
+            "itemPrice": 185
+          },
+          {
+            "id": "wr_lavaTempura",
+            "itemName": "лава темпура",
+            "itemDescription": "Свежий лосось, огурец, сливочный сыр, фирменный соус Лава, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 310,
+            "itemPrice": 230
+          },
+          {
+            "id": "wr_banzai",
+            "itemName": "банзай",
+            "itemDescription": "Ролл с семгой, копченым угрем, сливочным сыром, огурцом",
+            "itemWeight": 290,
+            "itemPrice": 250
+          },
+          {
+            "id": "wr_norito",
+            "itemName": "норито",
+            "itemDescription": "Рис, нори, лосось, окунь, огурец, сливочный сыр, икра летучей рыбы, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 270,
+            "itemPrice": 225
+          },
+          {
+            "id": "wr_asami",
+            "itemName": "асами",
+            "itemDescription": "Ролл с тигровой креветкой, сливочным сыром, огурцом, икрой «Тобико», латуком, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 280,
+            "itemPrice": 250
+          },
+          {
+            "id": "wr_tsurai",
+            "itemName": "тсурай",
+            "itemDescription": "Ролл с копченой куриной грудинкой, помидорами и сливочным сыром, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 280,
+            "itemPrice": 190
+          },
+          {
+            "id": "wr_dragonBreath",
+            "itemName": "дыхание дракона",
+            "itemDescription": "Рис, нори, копченый угорь, сливочный сыр, огурец, полит унаги и посыпан кунжутом, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 280,
+            "itemPrice": 225
+          },
+          {
+            "id": "wr_siakeTempura",
+            "itemName": "сяке темпура",
+            "itemDescription": "Рис, нори, нежнейший лосось, огурец, сливочный сыр, кунжут, соус «Унаги», обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 260,
+            "itemPrice": 215
+          },
+          {
+            "id": "wr_kabuki",
+            "itemName": "кабуки",
+            "itemDescription": "Копченая курочка, сливочный сыр, огурец, чесночные шапочки, обжаренный в темпурном кляре и сухарях «Панко»",
+            "itemWeight": 280,
+            "itemPrice": 205
+          }
+        ]
+      },
+      "maki-rolls": {
+        "name": "роллы маки",
+        "item": [
+          {
+            "id": "mr_lavaMaki",
+            "itemName": "лава маки",
+            "itemDescription": "Огурец, фирменный соус «Лава»",
+            "itemWeight": 140,
+            "itemPrice": 85
+          },
+          {
+            "id": "mr_unagiMaki",
+            "itemName": "унаги маки",
+            "itemDescription": "Рис, нори, копченый угорь, огурец, соус «Унаги», кунжут",
+            "itemWeight": 140,
+            "itemPrice": 120
+          },
+          {
+            "id": "mr_terraMaki",
+            "itemName": "терра маки",
+            "itemDescription": "Рис, нори, копченый угорь, огурец, сливочный сыр",
+            "itemWeight": 140,
+            "itemPrice": 120
+          },
+          {
+            "id": "mr_filaMaki",
+            "itemName": "фила маки",
+            "itemDescription": "Рис, нори, свежий лосось, сливочный сыр",
+            "itemWeight": 140,
+            "itemPrice": 110
+          },
+          {
+            "id": "mr_sumokoMaki",
+            "itemName": "сумоко маки",
+            "itemDescription": "Рис, нори, нежнейший лосось, огурец",
+            "itemWeight": 140,
+            "itemPrice": 100
+          },
+          {
+            "id": "mr_siakeMaki",
+            "itemName": "сяке маки",
+            "itemDescription": "Рис, нори, свежий лосось",
+            "itemWeight": 140,
+            "itemPrice": 105
+          },
+          {
+            "id": "mr_tekkaMaki",
+            "itemName": "текка маки",
+            "itemDescription": "Нори, рис, тунец, огурец",
+            "itemWeight": 140,
+            "itemPrice": 105
+          },
+          {
+            "id": "mr_kampinoMaki",
+            "itemName": "кампино маки",
+            "itemDescription": "Огурец, сливочный сыр",
+            "itemWeight": 140,
+            "itemPrice": 80
+          },
+          {
+            "id": "mr_kappaMaki",
+            "itemName": "каппа маки",
+            "itemDescription": "Рис, нори, свежый огурец, кунжут",
+            "itemWeight": 140,
+            "itemPrice": 75
+          },
+          {
+            "id": "mr_tomatoMaki",
+            "itemName": "томато маки",
+            "itemDescription": "Рис, нори, помидор, сыр крем",
+            "itemWeight": 140,
+            "itemPrice": 80
+          },
+          {
+            "id": "mr_kaniMaki",
+            "itemName": "кани маки",
+            "itemDescription": "Рис, нори, снежный краб",
+            "itemWeight": 130,
+            "itemPrice": 75
+          }
+        ]
+      },
+      "smart-rolls": {
+        "name": "smart роллы",
+        "item": [
+          {
+            "id": "sr_smartMiami",
+            "itemName": "smart майями",
+            "itemDescription": "Сливочный сыр, авокадо, икра «Тобико»",
+            "itemWeight": 200,
+            "itemPrice": 150
+          },
+          {
+            "id": "sr_bonitoSpicy",
+            "itemName": "бонито спайси",
+            "itemDescription": "Снежный краб, авокадо, соус «Кимчи», стружка тунца",
+            "itemWeight": 210,
+            "itemPrice": 130
+          },
+          {
+            "id": "sr_makelanoVegeterian",
+            "itemName": "макелано вегетарианский",
+            "itemDescription": "Огурец, авокадо, водоросли «Чука», помидор",
+            "itemWeight": 200,
+            "itemPrice": 95
+          },
+          {
+            "id": "sr_makelanoTuna",
+            "itemName": "макелано с тунцом",
+            "itemDescription": "Тунец, сливочный сыр, огурец, икра «Тобико»",
+            "itemWeight": 220,
+            "itemPrice": 140
+          },
+          {
+            "id": "sr_mexico",
+            "itemName": "мехико",
+            "itemDescription": "Свежий лосось, сливочный сыр, огурец, кунжут",
+            "itemWeight": 200,
+            "itemPrice": 120
+          },
+          {
+            "id": "sr_red",
+            "itemName": "red",
+            "itemDescription": "Снежный краб, сливочный сыр, икра «Тобико»",
+            "itemWeight": 210,
+            "itemPrice": 125
+          },
+          {
+            "id": "sr_philadelphiaTobiko",
+            "itemName": "филадельфия с тобико",
+            "itemDescription": "Сливочный сыр, свежий лосось, икра «Тобико»",
+            "itemWeight": 220,
+            "itemPrice": 160
+          },
+          {
+            "id": "sr_philadelphiaUltra",
+            "itemName": "филадельфия ultra",
+            "itemDescription": "Свежий лосось, сливочный сыр, авокадо, сладкий перец",
+            "itemWeight": 210,
+            "itemPrice": 140
+          },
+          {
+            "id": "sr_smartCalifornia",
+            "itemName": "smart калифорния",
+            "itemDescription": "Снежный краб, сливочный сыр, авокадо, икра «Тобико»",
+            "itemWeight": 200,
+            "itemPrice": 160
+          },
+          {
+            "id": "sr_greek",
+            "itemName": "греческий",
+            "itemDescription": "Сливочный сыр, огурец, сладкий перец, помидор, кунжут",
+            "itemWeight": 200,
+            "itemPrice": 105
+          }
+        ]
+      },
+      "premium-rolls": {
+        "name": "premium роллы",
+        "item": [
+          {
+            "id": "pr_doubleFish",
+            "itemName": "double fish",
+            "itemDescription": "Копченый угорь, тигровая креветка, тунец, сливочный сыр, авокадо, огурец, японский майонез, соус «Кимчи», соус «Унаги»",
+            "itemWeight": 280,
+            "itemPrice": 300
+          },
+          {
+            "id": "pr_dorblu",
+            "itemName": "дор блю",
+            "itemDescription": "Свежий лосось, копченый угорь, снежный краб, огурец, сливочный сыр, сыр Дор-Блю, соус «Унаги»",
+            "itemWeight": 270,
+            "itemPrice": 290
+          },
+          {
+            "id": "pr_arigato",
+            "itemName": "аригато",
+            "itemDescription": "Копченый угорь, тигровая креветка, сливочный сыр, авокадо, зеленый лук, икра «Тобико», японский майонез, соус «Унаги»",
+            "itemWeight": 260,
+            "itemPrice": 270
+          },
+          {
+            "id": "pr_dragon",
+            "itemName": "дракон",
+            "itemDescription": "Тигровая креветка темпура, свежий лосось, сливочный сыр, авокадо, икра «Тобико», сырный соус, соус «Унаги»",
+            "itemWeight": ,
+            "itemPrice": 
+          },
+          {
+            "id": "",
+            "itemName": "",
+            "itemDescription": "",
+            "itemWeight": ,
+            "itemPrice": 
+          },
+          {
+            "id": "",
+            "itemName": "",
+            "itemDescription": "",
+            "itemWeight": ,
+            "itemPrice": 
+          },
+          {
+            "id": "",
+            "itemName": "",
+            "itemDescription": "",
+            "itemWeight": ,
+            "itemPrice": 
+          },
+          {
+            "id": "",
+            "itemName": "",
+            "itemDescription": "",
+            "itemWeight": ,
+            "itemPrice": 
+          },
+          {
+            "id": "",
+            "itemName": "",
+            "itemDescription": "",
+            "itemWeight": ,
+            "itemPrice": 
+          }
+        ]
+      }
+    }
+  }
+}
