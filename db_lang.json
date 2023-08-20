@@ -980,203 +980,203 @@
         "item": [
           {
             "id": "cr_asiya",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "асія",
+            "itemDescription": "Свіжий лосось, тигрові креветки, сніговий краб, вершковий сир, перець болгарський, огірок, зелена цибуля"
           },
           {
             "id": "cr_tokyo",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "токіо",
+            "itemDescription": "Свіжий лосось, креветка, ікра летючої риби, вершковий сир, авокадо"
           },
           {
             "id": "cr_tigerDragon",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "тигровий дракон",
+            "itemDescription": "Рис, норі, сніговийй краб, Тобіко, авокадо, тигровая креветка 5 шт"
           },
           {
             "id": "cr_philadelphia",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія",
+            "itemDescription": "Соковитий лосось, вершковий сир, огірок"
           },
           {
             "id": "cr_philadelphiaAvocado",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія з авокадо",
+            "itemDescription": "Свіжий лосось, вершковий сир, авокадо"
           },
           {
             "id": "cr_philadelphiaMega",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія mega",
+            "itemDescription": "Вершковий сир, огірок, подвійний лосось, менше рису"
           },
           {
             "id": "cr_philadelphiaPremium",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія premium",
+            "itemDescription": "Ще більше соковитого лосося, вершковий сир, огірок"
           },
           {
             "id": "cr_philadelphiaDeluxe",
-            "itemName": "филадельфия deluxe",
-            "itemDescription": ""
+            "itemName": "філадельфія deluxe",
+            "itemDescription": "Рис, норі, лосось, авокадо, Тобіко, вершковий сир"
           },
           {
             "id": "cr_philadelphiaCrab",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія з крабом",
+            "itemDescription": "Рис, норі, лосось, авокадо, Тобіко, сніговийй краб, вершковий сир"
           },
           {
             "id": "cr_philadelphiaGreenOnion",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія із зеленою цибулею",
+            "itemDescription": "Соковитий лосось, зелена цибуля, вершковий сир"
           },
           {
             "id": "cr_philadelphiaEel",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія з вугром",
+            "itemDescription": "Свіжий лосось, копченый вугор, огірок, авокадо, ікра летючої риби"
           },
           {
             "id": "cr_philadelphiaTigerShrimp",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "філадельфія з тигровою креветкою",
+            "itemDescription": "Рис, норі, вершковий сир, огірок, тигрова креветка 5 шт"
           },
           {
             "id": "cr_akay",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "акай",
+            "itemDescription": "Рис, норі, вугор, вершковий сир, огірок, окунь"
           },
           {
             "id": "cr_asahi",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "асахі",
+            "itemDescription": "Копчений вугор, сніговий краб, вершковий сир, авокадо, ікра летючої риби"
           },
           {
             "id": "cr_royalDragon",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "королівский дракон",
+            "itemDescription": "Копчений вугор, сніговий краб, соус Кімчі, ікра летючої риби, авокадо, кунжут"
           },
           {
             "id": "cr_dragonDream",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "мрія дракона",
+            "itemDescription": "Копчений вугор, сніговий краб, японський майонез, авокадо, огірок"
           },
           {
             "id": "cr_california",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія",
+            "itemDescription": "Сніговий краб, вершковий сир, авокадо, ікра летючої риби"
           },
           {
             "id": "cr_unagiTerra",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "унагі терра",
+            "itemDescription": "Копчений вугор, вершковий сир, огірок, посипаний кунжутом"
           },
           {
             "id": "cr_californiaMix",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія mix",
+            "itemDescription": "Свіжий лосось, листок салату, вершковий сир, ікра летючої риби"
           },
           {
             "id": "cr_californiaNight",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія night",
+            "itemDescription": "Сніговий краб, вершковий сир, огірок, ікра летючої риби"
           },
           {
             "id": "cr_californiaCrab",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія з крабом",
+            "itemDescription": "Сніговий краб, огірок, авокадо, ікра летючої риби"
           },
           {
             "id": "cr_californiaSesame",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія у кунжуті",
+            "itemDescription": "Сніговий краб, вершковий сир, авокадо, кунжут"
           },
           {
             "id": "cr_californiaPremium",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія premium",
+            "itemDescription": "Сніговий краб, авокадо, соус Кімчі, ікра летючої риби"
           },
           {
             "id": "cr_californiaEel",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "каліфорнія з вугром",
+            "itemDescription": "Копчений вугор, огірок, авокадо, кунжут"
           },
           {
             "id": "cr_lava",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "лава",
+            "itemDescription": "Свіжий лосось, огірок, вершковий сир, кунжут, фірмовий соус Лава"
           },
           {
             "id": "cr_lavaTigerShrimp",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "лава з тигровою креветкою",
+            "itemDescription": "Тигрова креветка, вершковий сир, огірок, фірмовий соус Лава"
           },
           {
             "id": "cr_lavaEel",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "лава з вугром",
+            "itemDescription": "Копчений вугор, огірок, вершковий сир, фірмовий соус Лава"
           },
           {
             "id": "cr_haru",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "хару",
+            "itemDescription": "Рис, норі, лосось, вершковий сир, авокадо, соус «Кімчі»"
           },
           {
             "id": "cr_lavaEbiTempura",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "лава ебі темпура",
+            "itemDescription": "Огірок, тигрова креветка темпура, соус «Кімчі», покритий часниковим соусом, кунжут"
           },
           {
             "id": "cr_amatera",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "аматера",
+            "itemDescription": "Свіжий лосось, копчений вугор, огірок, вершковий сир, кунжут"
           },
           {
             "id": "cr_yasay",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "ясай",
+            "itemDescription": "Свіжий лосось, авокадо, вершковий сир, сніговий краб, Тобіко, Унагі, кунжут"
           },
           {
             "id": "cr_bonsay",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "бонсай",
+            "itemDescription": "Лосось, вершковий сир, огірок, соус «Кімчі», ікра летючої риби"
           },
           {
             "id": "cr_chess",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "шахи",
+            "itemDescription": "Сніговий краб, авокадо, вершковий сир, ікра летючої риби"
           },
           {
             "id": "cr_ebiTempura",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "ебі темпура",
+            "itemDescription": "Огірок, тигрова креветка темпура, соус «Кімчі», кунжут"
           },
           {
             "id": "cr_bonitoTuna",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "боніто с тунцем",
+            "itemDescription": "Рис, норі, тунець, вершковий сир, ікра «Тобіко», зелена цибуля, стружка тунця"
           },
           {
             "id": "cr_greenDragon",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "зелений дракон",
+            "itemDescription": "Вугор копчений, огірок, ікра летючої риби, вершковий сир, кунжут, покритий авокадо та соусом «Унагі»"
           },
           {
             "id": "cr_okinava",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "окінава",
+            "itemDescription": "Свіжий лосось, копчений вугор, авокадо, огірок, ікра летючої риби"
           },
           {
             "id": "cr_tokusey",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "токусей",
+            "itemDescription": "Свіжий лосось, вершковий сир, лист салату, авокадо, покритий огірком"
           },
           {
             "id": "cr_alaska",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "аляска",
+            "itemDescription": "Свіжий лосось, огірок, вершковий сир, кунжут"
           },
           {
             "id": "cr_cesar",
-            "itemName": "",
-            "itemDescription": ""
+            "itemName": "цезар",
+            "itemDescription": "Копчена курка, помідор, листок салату, вершковий сир, покритий чорним та білим кунжутом"
           }
         ]
       },
