@@ -1,7 +1,7 @@
 {
   "ru": {
     "categoryName": {
-      "classic-rolls": {
+      "classicRolls": {
         "name": "роллы классические",
         "item": [
           {
@@ -206,13 +206,13 @@
           }
         ]
       },
-      "warm-rolls": {
+      "warmRolls": {
         "name": "тёплые роллы",
         "item": [
           {
             "id": "wr_idsumiTai",
             "itemName": "идзуми-тай",
-            "itemDescription": "Рис, нори, окунь темпура, сливочный сыр, помидор, соус кимчи, лук зеленый, обжаренный в темпурном кляре и сухарях «Панко»"
+            "itemDescription": "Рис, нори, окунь темпура, сливочный сыр, помидор, соус «Кимчи», лук зеленый, обжаренный в темпурном кляре и сухарях «Панко»"
           },
           {
             "id": "wr_premiumRoll",
@@ -276,7 +276,7 @@
           }
         ]
       },
-      "maki-rolls": {
+      "makiRolls": {
         "name": "роллы маки",
         "item": [
           {
@@ -336,7 +336,7 @@
           }
         ]
       },
-      "smart-rolls": {
+      "smartRolls": {
         "name": "smart роллы",
         "item": [
           {
@@ -391,7 +391,7 @@
           }
         ]
       },
-      "premium-rolls": {
+      "premiumRolls": {
         "name": "premium роллы",
         "item": [
           {
@@ -441,7 +441,7 @@
           }
         ]
       },
-      "rolls-wo-rice": {
+      "rollsWoRice": {
         "name": "роллы без риса",
         "item": [
           {
@@ -461,7 +461,7 @@
           }
         ]
       },
-      "black-rice-rolls": {
+      "blackRiceRolls": {
         "name": "роллы с чёрным рисом",
         "item": [
           {
@@ -506,7 +506,7 @@
           }
         ]
       },
-      "smart-sets": {
+      "smartSets": {
         "name": "smart сеты",
         "item": [
           {
@@ -606,7 +606,7 @@
           }
         ]
       },
-      "sushi-sandwiches": {
+      "sushiSandwiches": {
         "name": "суши-сэндвичи",
         "item": [
           {
@@ -691,7 +691,7 @@
           }
         ]
       },
-      "noddle-rice-wok": {
+      "noddleRiceWok": {
         "name": "лапша и рис wok",
         "item": [
           {
@@ -936,7 +936,7 @@
           }
         ]
       },
-      "kids-rolls": {
+      "kidsRolls": {
         "name": "детские роллы",
         "item": [
           {
@@ -970,12 +970,123 @@
             "itemDescription": "Соевая бумага, рис, сыр, перец, помидор, лист салата"
           }
         ]
+      },
+      "snacks": {
+        "name": "закуски",
+        "item": [
+          {
+            "id": "sn_wings",
+            "itemName": "крылышки",
+            "itemDescription": "Пикантные обжаренные куриные крылышки 6 шт",
+            "itemWeight": "Соус в ассортименте"
+          },
+          {
+            "id": "sn_shrimpsTempura",
+            "itemName": "креветка «темпура»",
+            "itemDescription": "Креветка в «Темпуре» и сухарях «Панко»"
+          },
+          {
+            "id": "sn_onionRings",
+            "itemName": "луковые кольца",
+            "itemDescription": "Репчатый лук в панировке"
+          },
+          {
+            "id": "sn_nuggets",
+            "itemName": "наггетсы",
+            "itemDescription": "Наггетсы из куриного филе"
+          },
+          {
+            "id": "sn_frenchFries",
+            "itemName": "картофель фри"
+          },
+          {
+            "id": "sn_potatoRural",
+            "itemName": "картофель по-сельски"
+          }
+        ]
+      },
+      "saucesExtras": {
+        "name": "соусы и дополнения",
+        "item": [
+          {
+            "id": "scex_ketchup",
+            "itemName": "кетчуп"
+          },
+          {
+            "id": "scex_mayonnaise",
+            "itemName": "майонез"
+          },
+          {
+            "id": "scex_cheese",
+            "itemName": "сырный"
+          },
+          {
+            "id": "scex_bbq",
+            "itemName": "bbq"
+          },
+          {
+            "id": "scex_unagi",
+            "itemName": "унаги"
+          },
+          {
+            "id": "scex_lava",
+            "itemName": "лава"
+          },
+          {
+            "id": "scex_red",
+            "itemName": "красный-острый"
+          },
+          {
+            "id": "scex_sourSweet",
+            "itemName": "кисло-сладкий"
+          },
+          {
+            "id": "scex_mangoChili",
+            "itemName": "манго-чили"
+          },
+          {
+            "id": "scex_creamGarlik",
+            "itemName": "сливочно-чесночный"
+          },
+          {
+            "id": "scex_nutty",
+            "itemName": "ореховый"
+          },
+          {
+            "id": "scex_garlik",
+            "itemName": "чесночный"
+          },
+          {
+            "id": "scex_soy",
+            "itemName": "соевый"
+          },
+          {
+            "id": "scex_branded",
+            "itemName": "фирменный"
+          },
+          {
+            "id": "scex_wasabi",
+            "itemName": "васаби"
+          },
+          {
+            "id": "scex_ginger",
+            "itemName": "имбирь"
+          },
+          {
+            "id": "scex_set",
+            "itemName": "дополнительный комплект"
+          },
+          {
+            "id": "scex_chuka",
+            "itemName": "чука вакаме с ореховым соусом"
+          }
+        ]
       }
     }
   },
   "ua": {
     "categoryName": {
-      "classic-rolls": {
+      "classicRolls": {
         "name": "роли класичні",
         "item": [
           {
@@ -991,7 +1102,7 @@
           {
             "id": "cr_tigerDragon",
             "itemName": "тигровий дракон",
-            "itemDescription": "Рис, норі, сніговийй краб, Тобіко, авокадо, тигровая креветка 5 шт"
+            "itemDescription": "Рис, норі, сніговий краб, «Тобіко», авокадо, тигрова креветка 5 шт"
           },
           {
             "id": "cr_philadelphia",
@@ -1180,7 +1291,7 @@
           }
         ]
       },
-      "warm-rolls": {
+      "warmRolls": {
         "name": "теплі роли",
         "item": [
           {
@@ -1250,7 +1361,7 @@
           }
         ]
       },
-      "maki-rolls": {
+      "makiRolls": {
         "name": "роли макі",
         "item": [
           {
@@ -1310,7 +1421,7 @@
           }
         ]
       },
-      "smart-rolls": {
+      "smartRolls": {
         "name": "smart роли",
         "item": [
           {
@@ -1365,7 +1476,7 @@
           }
         ]
       },
-      "premium-rolls": {
+      "premiumRolls": {
         "name": "premium роли",
         "item": [
           {
@@ -1415,7 +1526,7 @@
           }
         ]
       },
-      "rolls-wo-rice": {
+      "rollsWoRice": {
         "name": "роли без рису",
         "item": [
           {
@@ -1435,7 +1546,7 @@
           }
         ]
       },
-      "black-rice-rolls": {
+      "blackRiceRolls": {
         "name": "роли з чорним рисом",
         "item": [
           {
@@ -1480,7 +1591,7 @@
           }
         ]
       },
-      "smart-sets": {
+      "smartSets": {
         "name": "smart сети",
         "item": [
           {
@@ -1580,7 +1691,7 @@
           }
         ]
       },
-      "sushi-sandwiches": {
+      "sushiSandwiches": {
         "name": "суші-сендвічі",
         "item": [
           {
@@ -1665,7 +1776,7 @@
           }
         ]
       },
-      "noddle-rice-wok": {
+      "noddleRiceWok": {
         "name": "лапша и рис wok",
         "item": [
           {
@@ -1910,7 +2021,7 @@
           }
         ]
       },
-      "kids-rolls": {
+      "kidsRolls": {
         "name": "дитячі роли",
         "item": [
           {
@@ -1942,6 +2053,117 @@
             "id": "kd_sensei",
             "itemName": "сенсей",
             "itemDescription": "Соєвий папір, рис, сир, перець, помідор, листок салату"
+          }
+        ]
+      },
+      "snacks": {
+        "name": "закуски",
+        "item": [
+          {
+            "id": "sn_wings",
+            "itemName": "крильця",
+            "itemDescription": "Пікантні обсмажені курячі крильця 6 шт",
+            "itemWeight": "Соус в асортименті"
+          },
+          {
+            "id": "sn_shrimpsTempura",
+            "itemName": "креветка «темпура»",
+            "itemDescription": "Креветка в «Темпурі» та сухарях «Панко»"
+          },
+          {
+            "id": "sn_onionRings",
+            "itemName": "цибулеві кільця",
+            "itemDescription": "Ріпчата цибуля у пануванні"
+          },
+          {
+            "id": "sn_nuggets",
+            "itemName": "нагетси",
+            "itemDescription": "Нагетси з курячого філе"
+          },
+          {
+            "id": "sn_frenchFries",
+            "itemName": "картопля фрі"
+          },
+          {
+            "id": "sn_potatoRural",
+            "itemName": "картопля по-селянськи"
+          }
+        ]
+      },
+      "saucesExtras": {
+        "name": "соуси та доповнення",
+        "item": [
+          {
+            "id": "scex_ketchup",
+            "itemName": "кетчуп"
+          },
+          {
+            "id": "scex_mayonnaise",
+            "itemName": "майонез"
+          },
+          {
+            "id": "scex_cheese",
+            "itemName": "сирний"
+          },
+          {
+            "id": "scex_bbq",
+            "itemName": "bbq"
+          },
+          {
+            "id": "scex_unagi",
+            "itemName": "унагі"
+          },
+          {
+            "id": "scex_lava",
+            "itemName": "лава"
+          },
+          {
+            "id": "scex_red",
+            "itemName": "червоний-гострий"
+          },
+          {
+            "id": "scex_sourSweet",
+            "itemName": "кисло-солодкий"
+          },
+          {
+            "id": "scex_mangoChili",
+            "itemName": "манго-чілі"
+          },
+          {
+            "id": "scex_creamGarlik",
+            "itemName": "вершково-часниковий"
+          },
+          {
+            "id": "scex_nutty",
+            "itemName": "горіховий"
+          },
+          {
+            "id": "scex_garlik",
+            "itemName": "часниковий"
+          },
+          {
+            "id": "scex_soy",
+            "itemName": "соєвий"
+          },
+          {
+            "id": "scex_branded",
+            "itemName": "фірмовий"
+          },
+          {
+            "id": "scex_wasabi",
+            "itemName": "васабі"
+          },
+          {
+            "id": "scex_ginger",
+            "itemName": "імбир"
+          },
+          {
+            "id": "scex_set",
+            "itemName": "додатковий комплект"
+          },
+          {
+            "id": "scex_chuka",
+            "itemName": "чука вакаме з горіховим соусом"
           }
         ]
       }
