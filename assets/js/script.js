@@ -3,7 +3,7 @@ let categories = document.querySelectorAll('.categoryName');
 let ruOpt = document.querySelector('.lg_ru');
 let uaOpt = document.querySelector('.lg_ua');
 
-fetch('./../../db_lang.json')
+fetch('/db_lang.json')
     .then(resp => resp.json())
     .then(data => db = data);
 
