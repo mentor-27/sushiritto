@@ -39,7 +39,7 @@ function langSwitch(lang_name) {
     let kd = document.querySelectorAll('[id^="kd_"]');
     let sn = document.querySelectorAll('[id^="sn_"]');
     let scex = document.querySelectorAll('[id^="scex_"]');
-    catNames.forEach((item, i) => item.innerHTML = (Object.entries(db[lang_name.toLowerCase()].categoryName)[i][1].name) + '<span class="arrow"></span>');
+    catNames.forEach((item, i) => item.innerHTML = (Object.values(db[lang_name.toLowerCase()].categoryName)[i].name) + '<span class="arrow"></span>');
     cr.forEach((item, i) => item.querySelector('.itemName').innerHTML = db[lang_name.toLowerCase()].categoryName.classicRolls.item[i].itemName);
     cr.forEach((item, i) => item.querySelector('.itemDescription').innerHTML = db[lang_name.toLowerCase()].categoryName.classicRolls.item[i].itemDescription);
     wr.forEach((item, i) => item.querySelector('.itemName').innerHTML = db[lang_name.toLowerCase()].categoryName.warmRolls.item[i].itemName);
