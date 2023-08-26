@@ -1,4 +1,4 @@
-var db;
+let db;
 let categories = document.querySelectorAll('.categoryName');
 let ruOpt = document.querySelector('.lg_ru');
 let uaOpt = document.querySelector('.lg_ua');
